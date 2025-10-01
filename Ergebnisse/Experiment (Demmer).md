@@ -1,3 +1,0 @@
-- MOF zersetzt sich beim trocknen
-	- Xylol im NMR
-	- Xylol bei 150 °C in TG-DSC-IR
