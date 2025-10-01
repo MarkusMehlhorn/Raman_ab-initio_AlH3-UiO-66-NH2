@@ -1,0 +1,9 @@
+/var/lib/slurm-llnl/slurmd/job61726/slurm_script: line 26: ulimit: pipe size: cannot modify limit: Invalid argument
+cp: preserving permissions for ‘/local/scratch/mehlhorn/61726/JOBLOG’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/61726/guest.xyz’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/61726/host.xyz’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/61726/note.txt’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/61726/orca.job’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/61726/run.inp’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/61726/slurm-61726.out’: Operation not supported
+slurmstepd-chromium02: error: *** JOB 61726 ON chromium02 CANCELLED AT 2025-08-07T10:19:25 ***

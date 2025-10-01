@@ -1,0 +1,254 @@
+
+--------------------- RI-MP2 RESPONSE DENSITY CALCULATION ----------------------
+
+Number of spin operators                  ... 1
+Orbital window                            ... (15-23)x(24-479)
+Memory devoted to MP2                     ... 4096 MB
+Data format for buffers                   ... DOUBLE
+Compression type for matrix containers    ... UNCOMPRESSED
+Overall scaling of the MP2 energy         ... 1.250e-01
+Number of perturbations                   ... 3
+Perturbation type                         ... Electric
+Perturbed canonical internal orbitals     ... on
+PertCan_EThresh                           ... 1.000e-06
+PertCan_UThresh                           ... 10.000
+Ignore perturbed Fock elements below      ... 1.000e-05
+Disk storage for pert. amplitude contribs.... on
+Disk storage for pert. density contribs.  ... off
+Disk storage for two-body density         ... on
+Fock response treatment                   ... RIJCOSX
+Z_GridX_RHS                               ... 2
+Density functional contributions          ... on
+Solvent contributions                     ... off
+
+-------------------------------------------------------------------------------
+
+Checking for AuxC basis set                          ... 
+          -> AuxC basis set found (Dim=1005)!
+Reading perturbed overlap integrals                  ... done
+Reading CPSCF-coefficients                           ... done
+Reading F(x)[P] + doing G[P(x)]                      ... done
+Diagonalizing the occ-occ block of Fx                ... done
+Completing the MO rotation matrix                    ... done
+Completing the perturbed Fock matrix                 ... done
+Making and storing derivative two-electron integrals ... 
+------------------------------------
+PERTURBED RI INTEGRAL TRANSFORMATION
+------------------------------------
+
+Dimension of the orbital-basis         ... 480
+Dimension of the aux-basis             ... 1005
+Number of (i,a) MOs                    ... 24,456
+Number of ij,ia,ab pairs               ... 576,10944,207936
+Transformation of internal MOs         ...    0-  23
+Transformation of internal/external MOs...    0-  23 to   24- 479
+Number of perturbations                ... 3
+Perturbation type                      ... Electric
+Integral generation using SHARK        ... on
+
+Preparing matrix containers                    ... done
+Calculating integrals and transforming MO indices (SHARK) ... done (   40.964 s)
+  -> Made and stored VIJ (unperturbed)    (     4.4 MB)
+  -> Made and stored VIJ (perturbation 0) (     4.4 MB)
+  -> Made and stored VIJ (perturbation 1) (     4.4 MB)
+  -> Made and stored VIJ (perturbation 2) (     4.4 MB)
+  -> Made and stored VIA (unperturbed)    (    83.9 MB)
+  -> Made and stored VIA (perturbation 0) (    83.9 MB)
+  -> Made and stored VIA (perturbation 1) (    83.9 MB)
+  -> Made and stored VIA (perturbation 2) (    83.9 MB)
+
+IJ-Resorting (unperturbed)    
+  Memory available                     ... 4010.8 MB
+  Memory needed per pair               ...   0.0 MB
+  Number of pairs                      ... 576
+  Number of batches                    ... 1
+    Reading      ... done (    0.027 s)
+    Writing      ... done (    0.015 s)
+  -> Made and stored IJV (unperturbed)    (     4.4 MB)
+
+IJ-Resorting and Aux-transformation (perturbation 0)
+  Memory available                     ... 4010.8 MB
+  Memory needed per pair               ...   0.0 MB
+  Number of pairs per process          ... 576
+  Number of batches                    ... 1
+    Reading      ... done (    0.027 s)
+    Transforming ... done (    5.277 s)
+  -> Made and stored IJV (perturbation 0) (     4.4 MB)
+
+IJ-Resorting and Aux-transformation (perturbation 1)
+  Memory available                     ... 4010.8 MB
+  Memory needed per pair               ...   0.0 MB
+  Number of pairs per process          ... 576
+  Number of batches                    ... 1
+    Reading      ... done (    0.027 s)
+    Transforming ... done (    5.297 s)
+  -> Made and stored IJV (perturbation 1) (     4.4 MB)
+
+IJ-Resorting and Aux-transformation (perturbation 2)
+  Memory available                     ... 4010.8 MB
+  Memory needed per pair               ...   0.0 MB
+  Number of pairs per process          ... 576
+  Number of batches                    ... 1
+    Reading      ... done (    0.030 s)
+    Transforming ... done (    6.348 s)
+  -> Made and stored IJV (perturbation 2) (     4.4 MB)
+
+IA-Resorting (unperturbed)    
+  Memory available                     ... 4007.3 MB
+  Memory needed per orbital            ...   3.5 MB
+  Number of orbitals                   ... 24
+  Number of batches                    ... 1
+    Reading      ... done (    0.075 s)
+    Writing      ... done (    0.196 s)
+  -> Made and stored IAV (unperturbed)    (    83.9 MB)
+
+IA-Resorting and Aux-transformation (perturbation 0)
+  Memory available                     ... 4007.3 MB
+  Memory needed per orbital            ...   3.5 MB
+  Number of orbitals per process       ... 24
+  Number of batches                    ... 1
+    Reading      ... done (    0.071 s)
+    Transforming ... done (    3.434 s)
+  -> Made and stored IAV (perturbation 0) (    83.9 MB)
+
+IA-Resorting and Aux-transformation (perturbation 1)
+  Memory available                     ... 4007.3 MB
+  Memory needed per orbital            ...   3.5 MB
+  Number of orbitals per process       ... 24
+  Number of batches                    ... 1
+    Reading      ... done (    0.072 s)
+    Transforming ... done (    3.504 s)
+  -> Made and stored IAV (perturbation 1) (    83.9 MB)
+
+IA-Resorting and Aux-transformation (perturbation 2)
+  Memory available                     ... 4007.3 MB
+  Memory needed per orbital            ...   3.5 MB
+  Number of orbitals per process       ... 24
+  Number of batches                    ... 1
+    Reading      ... done (    0.073 s)
+    Transforming ... done (    3.563 s)
+  -> Made and stored IAV (perturbation 2) (    83.9 MB)
+
+Resorting completed in    28.748 s
+Perturbed RI Integral transformation completed in    69.719 s
+done
+Reading total MP2 density matrix (run_D00008.pmp2re) ... done
+Reading total SCF density matrix (run_D00008.scfp  ) ... done
+Reading overlap matrix           (run_D00008.S.tmp ) ... done
+Opening RI buffers                                   ... done
+Precalculating necessary amplitudes for op1,2=0,0    ... 
+
+  Orbital window               ... ( 15- 23)x( 24-479)
+  Number of pairs to store     ... 45
+  Storage space required       ...     71.4 MB
+  Memory available             ...   3994.6 MB
+  Memory needed per MO         ...      3.5 MB
+  Number of MOs per batch      ... 9
+  Number of batches            ... 1
+
+  Amplitudes stored (    71.4 MB disk usage, compression ratio 1.00)
+Entering main pair loop                              ... 
+
+Orbital window               ... ( 15- 23)x( 24-479)
+Memory available             ...   3894.9 MB
+Memory needed per MO         ...     14.0 MB
+Number of orbitals per batch ... 9
+Number of batches            ... 1
+
+  Batch   0:  15 ...  23
+            Reading integral buffers ... done
+            Main ij loop             ... done
+            Batch done (  109.025 s)
+
+Re-sorting two-body density                          ... 
+  -> operator 0 unperturbed    ... done
+  -> operator 0 perturbation 0 ... done
+  -> operator 0 perturbation 1 ... done
+  -> operator 0 perturbation 2 ... done
+Calculating 3-external RHS-contributions             ... done
+
+------------------------------
+MP2 RESPONSE DENSITY FORMATION
+------------------------------
+
+Completing the external part of the response density for op=0 ... done
+Finalizing the unrelaxed response density for op=0   ... done
+Storing the unrelaxed response density               ... done
+Frozen core response terms                           ... done
+Fock-response contributions to the 1st order RHS     ... 
+  -> F(x)Z         ... done
+  -> R[D]U(x)      ... done (117.640 sec)
+  -> R[D(x)]       ... done (364.090 sec)
+  -> RXC(x)[D]     ... done (65.092 sec)
+Solving the 1st order Z-vector equations             ... Using XC Grid                  ... (run_D00008.grid_cpscf.tmp) 
+Recalculating density on grid  ... (run_D00008.grho_cpscf0.tmp) done
+Calculating the xc-kernel      ... (run_D00008.fxc_cpscf0.tmp) done
+
+-------------------
+SHARK CP-SCF DRIVER
+-------------------
+
+Dimension of the orbital basis          ...    480
+Dimension of the CPSCF-problem          ...  10944
+Number of operators                     ...      1
+Max. number of iterations               ...    128
+Convergence Tolerance                   ... 3.0e-06
+Number of perturbations                 ...      3
+Perturbation type                       ... REAL
+
+----------------------------
+POPLE LINEAR EQUATION SOLVER
+----------------------------
+
+  ITERATION   0:   ||err||_max =   4.6890e-02 (  48.7 sec   0/  3 done)
+  ITERATION   1:   ||err||_max =   6.7314e-03 (  49.1 sec   0/  3 done)
+  ITERATION   2:   ||err||_max =   1.2914e-03 (  48.9 sec   0/  3 done)
+  ITERATION   3:   ||err||_max =   2.1093e-04 (  48.7 sec   0/  3 done)
+  ITERATION   4:   ||err||_max =   4.8598e-05 (  49.0 sec   0/  3 done)
+  ITERATION   5:   ||err||_max =   6.5623e-06 (  48.9 sec   0/  3 done)
+  ITERATION   6:   ||err||_max =   1.3027e-06 (  49.0 sec   3/  3 done)
+
+------------------------------------------------------------------------------
+
+Finalizing the response density                      ... done
+Storing the response density                         ... done
+
+-------
+TIMINGS
+-------
+
+Total time                              :   1497.774 s
+RI integral transformation              :     69.802 s (  4.7%)
+Derivative Fock matrix                  :    387.371 s ( 25.9%)
+I/O of (ia|V) integrals                 :      0.040 s (  0.0%)
+I/O of (ia|V)(x) integrals              :      0.161 s (  0.0%)
+Amplitudes                              :     16.755 s (  1.1%)
+-->Exchange integrals                   :     16.437 s
+-->Energy denominators                  :      0.063 s
+Derivative amplitudes                   :     48.724 s (  3.3%)
+-->Derivative integrals                 :     24.754 s
+-->Internal Fock contribution           :     11.648 s
+---->I/O of (ka|V) integrals            :      0.050 s
+---->I/O of Tik and Tkj amplitudes      :      0.653 s
+---->Tik and Tkj generation             :      8.710 s
+-->External Fock contribution           :     11.192 s
+-->Energy denominators(2)               :      0.232 s
+3-index density Y                       :      4.095 s (  0.3%)
+Derivative 3-index density Y(x)         :     24.512 s (  1.6%)
+Reading the density                     :      0.116 s (  0.0%)
+Direct external Y/Y(x) RHS-contributions:     31.796 s (  2.1%)
+-->I/O of Y/Y(x)                        :      1.265 s
+-->Generation of (mn|V)(x) integrals    :     15.738 s
+-->Contraction with Y/Y(x)              :     14.114 s
+Unrelaxed response density D(x)'        :     19.349 s (  1.3%)
+-->D(x)' internal block                 :      2.204 s
+-->D(x)' external block                 :     12.591 s
+Frozen core response terms              :      4.176 s (  0.3%)
+Relaxed response density                :    894.389 s ( 59.7%)
+-->I/O of (ij|V) integrals              :      0.006 s
+-->I/O of (ij|V)(x) integrals           :      0.013 s
+-->Internal Y(x) contribution to the RHS:      2.647 s
+-->Fock-response contribution F(x)Z     :      0.104 s
+-->Fock-response contribution R[D(x)']  :    364.090 s
+-->Fock-response contribution R[D]U     :    117.640 s
+-->1st-order Z-vector equations         :    344.115 s

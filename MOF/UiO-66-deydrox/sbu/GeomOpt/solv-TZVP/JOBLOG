@@ -1,0 +1,5 @@
+submit directory: /home/mehlhorn/MOF/UiO-66-deydrox/sbu/GeomOpt/solv-TZVP
+job ID: 62382
+node: gadolinium01
+number of CPUs: 64
+scratch directory: /local/scratch/mehlhorn/62382

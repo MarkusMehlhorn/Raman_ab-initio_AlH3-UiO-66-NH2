@@ -1,0 +1,44 @@
+--------------------------------------------------------------------------
+A system call failed during shared memory initialization that should
+not have.  It is likely that your MPI job will now either abort or
+experience performance degradation.
+
+  Local host:  chromium11
+  System call: unlink(2) /dev/shm/vader_segment.chromium11.1009.f7dd0001.23
+  Error:       No such file or directory (errno 2)
+--------------------------------------------------------------------------
+[chromium11:515350] 23 more processes have sent help message help-opal-shmem-mmap.txt / sys call fail
+[chromium11:515350] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 23 with PID 557988 on node chromium11 exited on signal 9 (Killed).
+--------------------------------------------------------------------------
+[file orca_tools/qcmsg.cpp, line 394]: 
+  .... aborting the run
+
+[file orca_main/run.cpp, line 383]: Cannot open input file: run_r.inp
+
+--------------------------------------------------------------------------
+A system call failed during shared memory initialization that should
+not have.  It is likely that your MPI job will now either abort or
+experience performance degradation.
+
+  Local host:  gadolinium01
+  System call: unlink(2) /dev/shm/vader_segment.gadolinium01.1009.72ae0001.62
+  Error:       No such file or directory (errno 2)
+--------------------------------------------------------------------------
+[gadolinium01:1141608] 63 more processes have sent help message help-opal-shmem-mmap.txt / sys call fail
+[gadolinium01:1141608] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 1142862 on node gadolinium01 exited on signal 9 (Killed).
+--------------------------------------------------------------------------
+[file orca_tools/qcmsg.cpp, line 394]: 
+  .... aborting the run
+

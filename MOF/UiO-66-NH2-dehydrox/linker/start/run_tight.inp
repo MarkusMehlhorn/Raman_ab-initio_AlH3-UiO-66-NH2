@@ -1,0 +1,21 @@
+
+
+%pal nprocs 64 end
+
+! PBE 	# functional used for the MOF calculations later (non-expensive)
+! RKS	# closed shell for SBU
+! D3BJ  # better geometries at low cost
+! def-TZVP def-ECP def2/J  	# Ahlrichs basis set triple zeta with core potentials and auxilarry basis set for coulomb integrals
+! Freq 	# Frequency analysis to check the stabiltity of the structures
+
+! NoPop # population analysis not necessary	
+
+! RI 		# speed up calculation 
+! DEFGRID3 # dense Grid
+! TightSCF # tight SCF criteria as basis for Geom.-Opt.
+! TightOpt # tight convergence criteria for geometry optimizations
+
+! SmallPrint
+
+
+* xyzFile 0 1 run_loose.xyz # no spin

@@ -1,0 +1,11 @@
+--------------------------------------------------------------------------
+A system call failed during shared memory initialization that should
+not have.  It is likely that your MPI job will now either abort or
+experience performance degradation.
+
+  Local host:  chromium10
+  System call: unlink(2) /dev/shm/vader_segment.chromium10.1009.4eb50001.5
+  Error:       No such file or directory (errno 2)
+--------------------------------------------------------------------------
+[chromium10:230068] 23 more processes have sent help message help-opal-shmem-mmap.txt / sys call fail
+[chromium10:230068] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages

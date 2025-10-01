@@ -1,0 +1,6 @@
+cp: preserving permissions for ‘/local/scratch/mehlhorn/61713/JOBLOG’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/61713/orca.job’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/61713/run.inp’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/61713/slurm-61713.out’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/61713/start.xyz’: Operation not supported
+slurmstepd-mendelevium01: error: *** JOB 61713 ON mendelevium01 CANCELLED AT 2025-08-06T11:33:33 ***

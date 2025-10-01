@@ -1,0 +1,5 @@
+submit directory: /home/mehlhorn/(AlH3)n/LöMi/PBEh-3c/7
+job ID: 62117
+node: cuda4
+number of CPUs: 24
+scratch directory: /local/scratch/mehlhorn/62117

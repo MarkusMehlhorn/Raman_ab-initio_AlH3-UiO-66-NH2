@@ -1,0 +1,5 @@
+submit directory: /home/mehlhorn/(AlH3)n/AlH3-sbu/GeomOpt/PBEtight
+job ID: 61317
+node: gadolinium01
+number of CPUs: 64
+scratch directory: /local/scratch/mehlhorn/61317

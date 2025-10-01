@@ -1,0 +1,12 @@
+--------------------------------------------------------------------------
+A system call failed during shared memory initialization that should
+not have.  It is likely that your MPI job will now either abort or
+experience performance degradation.
+
+  Local host:  mendelevium01
+  System call: unlink(2) /dev/shm/vader_segment.mendelevium01.1009.c5f00001.112
+  Error:       No such file or directory (errno 2)
+--------------------------------------------------------------------------
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+[mendelevium01:1576611] 255 more processes have sent help message help-opal-shmem-mmap.txt / sys call fail
+[mendelevium01:1576611] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages

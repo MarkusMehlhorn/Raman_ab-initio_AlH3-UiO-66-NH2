@@ -1,0 +1,5 @@
+submit directory: /home/mehlhorn/MOF/UiO-66-deydrox/primCell/GeomOpt/calc4
+job ID: 60588
+node: mendelevium01
+number of CPUs: 256
+scratch directory: /local/scratch/mehlhorn/60588

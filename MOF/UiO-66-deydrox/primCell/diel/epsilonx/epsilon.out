@@ -1,0 +1,58 @@
+
+     Program epsilon v.7.3.1 starts on 25Aug2025 at 12:38: 1 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 29 465901 (2017);
+         "P. Giannozzi et al., J. Chem. Phys. 152 154105 (2020);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Parallel version (MPI), running on    20 processors
+
+     MPI processes distributed on     1 nodes
+     R & G space division:  proc/nbgrp/npool/nimage =      20
+     70666 MiB available memory on the printing compute node when the environment starts
+
+
+
+     Reading input file...
+     Broadcasting variables...
+     Reading PW restart file...
+
+     Reading xml data from directory:
+
+     ./pwscf.save/
+     EXX fraction changed:   0.25
+     EXX Screening parameter changed:    0.1060000
+     file H.pbe-mt_fhi.UPF: wavefunction(s)  2p 4f renormalized
+     file Zr.pbe-mt_fhi.UPF: wavefunction(s)  4f renormalized
+     file C.pbe-mt_fhi.UPF: wavefunction(s)  4f renormalized
+     file O.pbe-mt_fhi.UPF: wavefunction(s)  4f renormalized
+
+     IMPORTANT: XC functional enforced from input :
+     Exchange-correlation= HSE
+                           (   1   4  12   4   0   0   0)
+     EXX-fraction              =        0.25
+     Any further DFT definition will be discarded
+     Please, verify this is what you really want
+
+
+     Parallelization info
+     --------------------
+     sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
+     Min        2388    1590    397               348784   189805   23727
+     Max        2389    1591    398               348789   189810   23730
+     Sum       47779   31815   7951              6975737  3796127  474567
+
+     Using Slab Decomposition
+
+
+
+     Fermi energy [eV] is: -2.68839
+     The system is a dielectric...
+     metallic system: redefining wmin =     0.000000
+
+     Performing eps calculation...

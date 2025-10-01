@@ -1,0 +1,65 @@
+/var/lib/slurm-llnl/slurmd/job62285/slurm_script: line 41: ulimit: pipe size: cannot modify limit: Invalid argument
+/var/lib/slurm-llnl/slurmd/job62285/slurm_script: line 42: ulimit: open files: cannot modify limit: Operation not permitted
+cp: preserving permissions for ‘/local/scratch/mehlhorn/62285/JOBLOG’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/62285/deh.zip’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/62285/epsilon.inp’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/62285/epsilon.out’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/62285/pw.inp’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/62285/pw.out’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/62285/pwscf.save/H.pbe-mt_fhi.UPF’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/62285/pwscf.save/C.pbe-mt_fhi.UPF’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/62285/pwscf.save/data-file-schema.xml’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/62285/pwscf.save/Zr.pbe-mt_fhi.UPF’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/62285/pwscf.save/O.pbe-mt_fhi.UPF’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/62285/pwscf.save/wfc1.dat’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/62285/pwscf.save/ace1.dat’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/62285/pwscf.save/charge-density.dat’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/62285/pwscf.save’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/62285/pwscf.xml’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/62285/qe.job’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/62285/slurm-62048.out’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/62285/slurm-62054.out’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/62285/slurm-62085.out’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/62285/slurm-62086.out’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/62285/slurm-62087.out’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/62285/slurm-62088.out’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/62285/slurm-62089.out’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/62285/slurm-62279.out’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/62285/slurm-62280.out’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/62285/slurm-62281.out’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/62285/slurm-62282.out’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/62285/slurm-62283.out’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/62285/slurm-62284.out’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/62285/slurm-62285.out’: Operation not supported
+At line 357 of file io_base.f90 (unit = 4, file = './pwscf.save/wfc1.dat')
+Fortran runtime error: Unformatted file structure has been corrupted
+
+Error termination. Backtrace:
+#0  0x7c3090823e59 in ???
+#1  0x7c3090824a71 in ???
+#2  0x7c30908256dc in ???
+#3  0x7c3090ac0149 in ???
+#4  0x7c3090abb08b in ???
+#5  0x612b6d7c9035 in __io_base_MOD_read_wfc
+	at /home/mehlhorn/qe-7.3.1/Modules/io_base.f90:357
+#6  0x612b6d546433 in __pw_restart_new_MOD_read_collected_wfc
+	at /home/mehlhorn/qe-7.3.1/PW/src/pw_restart_new.f90:1520
+#7  0x612b6d53cf78 in dipole_calc_
+	at /home/mehlhorn/qe-7.3.1/PP/src/epsilon.f90:1153
+#8  0x612b6d542f09 in eps_calc_
+	at /home/mehlhorn/qe-7.3.1/PP/src/epsilon.f90:454
+#9  0x612b6d545936 in epsilon
+	at /home/mehlhorn/qe-7.3.1/PP/src/epsilon.f90:346
+#10  0x612b6d53bf2e in main
+	at /home/mehlhorn/qe-7.3.1/PP/src/epsilon.f90:201
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[48926,1],0]
+  Exit code:    2
+--------------------------------------------------------------------------

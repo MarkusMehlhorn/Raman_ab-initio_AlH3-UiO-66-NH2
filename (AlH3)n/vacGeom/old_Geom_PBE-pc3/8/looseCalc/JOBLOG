@@ -1,0 +1,5 @@
+submit directory: /home/mehlhorn/(AlH3)n/GeomInit/8/looseCalc
+job ID: 56584
+node: cuda5
+number of CPUs: 24
+scratch directory: /local/scratch/mehlhorn/56584

@@ -1,0 +1,9 @@
+cp: preserving permissions for ‘/local/scratch/mehlhorn/54878/CRASH’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/54878/JOBLOG’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/54878/qe-pw.job’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/54878/qe-pw.out’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/54878/qe-pw_error.out’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/54878/run.inp’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/54878/slurm-54877.out’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/54878/slurm-54878.out’: Operation not supported
+slurmstepd-mendelevium01: error: *** JOB 54878 ON mendelevium01 CANCELLED AT 2025-05-02T11:06:38 ***

@@ -1,0 +1,10 @@
+dielectric constant
+
+&inputph
+    tr2_ph = 1.0e-14
+    epsil =.true    !dielectric constant
+    trans =.false. ! no phonons
+    fildyn = 'uio66.dyn'
+    trans=.false.
+/
+0 0 0   !muss 0 0 0 sein

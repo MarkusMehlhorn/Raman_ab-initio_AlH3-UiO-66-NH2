@@ -1,0 +1,10 @@
+
+&INPUTPH
+  fildyn   = 'dyn'
+  fildvscf = 'dvscf'
+  ldisp    = .true.
+  nq1 = 0 
+  nq2 = 0
+  nq3 = 0
+  tr2_ph   =  1.0d-14
+/

@@ -1,0 +1,5 @@
+submit directory: /home/mehlhorn/(AlH3)n/tests/ramanMethod/r2SCAN-3c
+job ID: 62069
+node: cuda3
+number of CPUs: 24
+scratch directory: /local/scratch/mehlhorn/62069

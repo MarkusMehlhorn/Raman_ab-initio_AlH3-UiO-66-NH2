@@ -1,0 +1,24 @@
+# Geometry optimization for (AlH3)n cluster
+
+! PBE 	# functional used for the MOF calculations later (non-expensive)
+! RKS	# closed shell for AlH3
+! D3BJ  # better geometries at low cost
+! pc-3 	# proven basiset from earlier work
+! Freq 	# Frequency analysis to check the stabiltity of the structures
+
+
+! NoPop # population analysis not necessary	
+
+! RI 		# speed up calculation 
+! AutoAux # no auxiliary basis set for pc implemented
+! DEFGRID3 # dense integration grid in space
+! TightSCF # 
+! TightOpt # thight convergence criteria for geometry optimizations
+
+! SmallPrint
+
+! MOread
+% moinp "start.gbw" # wfc from the preoptimisation (looseCalc/run.gbw)
+
+* xyzFile 0 1 start.xyz # Geometry from the preoptimisation (looseCalc2/run.xyz)
+# only maingroup elements H and Al so there should be no net spin

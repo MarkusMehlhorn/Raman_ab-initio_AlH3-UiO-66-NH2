@@ -1,0 +1,21 @@
+# Geometry optimization for (AlH3)5 dehydrox SBU
+
+%pal nprocs 64 end
+
+! PBE 	# functional used for the MOF calculations later (non-expensive)
+! RKS	# closed shell for SBU
+! D3BJ  # better geometries at low cost
+! def-TZVP def-ECP def2/J  	# Ahlrichs basis set with core potentials ans auxilarry basis set for coulomb integrals
+! Freq 	# Frequency analysis to check the stabiltity of the structures
+
+! NoPop # population analysis not necessary	
+
+! RI 		# speed up calculation 
+! DEFGRID3
+! TightSCF # tight SCF criteria as basis for Geom.-Opt.
+! TightOpt
+
+! SmallPrint
+
+
+* xyzFile 0 1 start.xyz # spin 0

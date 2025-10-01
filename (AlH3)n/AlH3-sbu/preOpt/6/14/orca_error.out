@@ -1,0 +1,1481 @@
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:119084] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:119084] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+A system call failed during shared memory initialization that should
+not have.  It is likely that your MPI job will now either abort or
+experience performance degradation.
+
+  Local host:  cuda7
+  System call: unlink(2) /dev/shm/vader_segment.cuda7.1009.a2850001.2
+  Error:       No such file or directory (errno 2)
+--------------------------------------------------------------------------
+[cuda7:119084] 23 more processes have sent help message help-opal-shmem-mmap.txt / sys call fail
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:119193] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:119193] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:119306] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:119306] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:119473] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:119473] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:119576] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:119576] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:119680] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:119680] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:119782] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:119782] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:119885] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:119885] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:119986] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:119986] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:120090] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:120090] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:120193] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:120193] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:120299] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:120299] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:120400] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:120400] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:120502] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:120502] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:120603] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:120603] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:120706] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:120706] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:120809] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:120809] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:120913] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:120913] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:121014] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:121014] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:121115] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:121115] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:121216] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:121216] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:121322] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:121322] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:121425] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:121425] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:121530] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:121530] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:121632] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:121632] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:121734] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:121734] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:121835] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:121835] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:121938] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:121938] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:122041] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:122041] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:122145] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:122145] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:122246] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:122246] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:122347] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:122347] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:122449] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:122449] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:122553] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:122553] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[cuda7:122656] [[44169,0],0] ORTE_ERROR_LOG: Data unpack would read past end of buffer in file ../../../orte/util/show_help.c at line 501
+[cuda7:122656] [[44169,0],0] ORTE_ERROR_LOG: Data unpack would read past end of buffer in file ../../../orte/util/show_help.c at line 501
+[cuda7:122656] [[44169,0],0] ORTE_ERROR_LOG: Data unpack would read past end of buffer in file ../../../orte/util/show_help.c at line 501
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:122656] 20 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:122656] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:122760] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:122760] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:122861] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:122861] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:122965] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:122965] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:123066] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:123066] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:123169] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:123169] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:123272] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:123272] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:123377] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:123377] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:123478] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:123478] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:123580] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:123580] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:123681] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:123681] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:123790] [[36903,0],0] ORTE_ERROR_LOG: Data unpack would read past end of buffer in file ../../../orte/util/show_help.c at line 501
+[cuda7:123790] 22 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:123790] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:123893] [[36956,0],0] ORTE_ERROR_LOG: Data unpack would read past end of buffer in file ../../../orte/util/show_help.c at line 501
+[cuda7:123893] 22 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:123893] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:123998] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:123998] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:124099] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:124099] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:124200] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:124200] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:124302] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:124302] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:124404] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:124404] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:124508] [[38389,0],0] ORTE_ERROR_LOG: Data unpack would read past end of buffer in file ../../../orte/util/show_help.c at line 501
+[cuda7:124508] [[38389,0],0] ORTE_ERROR_LOG: Data unpack would read past end of buffer in file ../../../orte/util/show_help.c at line 501
+[cuda7:124508] [[38389,0],0] ORTE_ERROR_LOG: Data unpack would read past end of buffer in file ../../../orte/util/show_help.c at line 501
+[cuda7:124508] 20 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:124508] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:124614] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:124614] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:124716] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:124716] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:124817] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:124817] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:124918] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:124918] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:125020] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:125020] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:125123] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:125123] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:125229] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:125229] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:125330] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:125330] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:125431] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:125431] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:125533] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:125533] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:125638] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:125638] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:125741] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:125741] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:125845] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:125845] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:125946] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:125946] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:126047] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:126047] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:126148] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:126148] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:126254] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:126254] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:126357] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:126357] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:126461] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:126461] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:126562] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:126562] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:126666] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:126666] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:126767] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:126767] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:126869] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:126869] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:126973] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:126973] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:127078] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:127078] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:127179] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:127179] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:127280] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:127280] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:127383] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:127383] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:127489] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:127489] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:127595] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:127595] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:127699] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:127699] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:127800] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:127800] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:127902] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:127902] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:128003] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:128003] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:128107] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:128107] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:128211] [[34682,0],0] ORTE_ERROR_LOG: Out of resource in file ../../../orte/util/show_help.c at line 507
+[cuda7:128211] 22 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:128211] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:128316] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:128316] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:128417] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:128417] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:128519] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:128519] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:128620] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:128620] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:128722] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:128722] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:128825] [[33936,0],0] ORTE_ERROR_LOG: Data unpack would read past end of buffer in file ../../../orte/util/show_help.c at line 501
+[cuda7:128825] 22 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:128825] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:128930] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:128930] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:129031] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:129031] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:129135] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:129135] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:129238] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:129238] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:129340] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:129340] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:129443] [[35338,0],0] ORTE_ERROR_LOG: Data unpack would read past end of buffer in file ../../../orte/util/show_help.c at line 501
+[cuda7:129443] 22 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:129443] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:129546] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:129546] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:129647] [[35270,0],0] ORTE_ERROR_LOG: Data unpack would read past end of buffer in file ../../../orte/util/show_help.c at line 501
+[cuda7:129647] 22 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:129647] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:129750] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:129750] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:129851] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:129851] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:129955] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:129955] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:130058] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:130058] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:130162] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:130162] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:130263] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:130263] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:130364] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:130364] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:130465] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:130465] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:130573] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:130573] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:130676] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:130676] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:130781] [[36212,0],0] ORTE_ERROR_LOG: Data unpack had inadequate space in file ../../../orte/util/show_help.c at line 513
+[cuda7:130781] 22 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:130781] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[cuda7:130882] [[36075,0],0] ORTE_ERROR_LOG: Data unpack would read past end of buffer in file ../../../orte/util/show_help.c at line 501
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:130882] 22 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:130882] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:130983] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:130983] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:131087] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:131087] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:131190] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:131190] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:131293] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:131293] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[cuda7:131397] [[29423,0],0] ORTE_ERROR_LOG: Data unpack would read past end of buffer in file ../../../orte/util/show_help.c at line 501
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:131397] 22 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:131397] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:131498] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:131498] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:131600] [[29114,0],0] ORTE_ERROR_LOG: Data unpack would read past end of buffer in file ../../../orte/util/show_help.c at line 501
+[cuda7:131600] [[29114,0],0] ORTE_ERROR_LOG: Data unpack would read past end of buffer in file ../../../orte/util/show_help.c at line 501
+[cuda7:131600] 21 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:131600] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:131703] [[29149,0],0] ORTE_ERROR_LOG: Out of resource in file ../../../orte/util/show_help.c at line 501
+[cuda7:131703] 22 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:131703] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:131812] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:131812] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[cuda7:131915] [[28897,0],0] ORTE_ERROR_LOG: Data unpack would read past end of buffer in file ../../../orte/util/show_help.c at line 501
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:131915] 22 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:131915] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:132020] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:132020] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:132122] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:132122] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:132223] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:132223] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:132324] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:132324] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:132474] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:132474] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:132577] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:132577] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:132682] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:132682] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:132783] [[29957,0],0] ORTE_ERROR_LOG: Data unpack would read past end of buffer in file ../../../orte/util/show_help.c at line 501
+[cuda7:132783] 22 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:132783] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:132884] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:132884] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:132986] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:132986] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:133088] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:133088] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[cuda7:133192] [[31714,0],0] ORTE_ERROR_LOG: Data unpack would read past end of buffer in file ../../../orte/util/show_help.c at line 501
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:133192] 22 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:133192] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:133296] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:133296] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:133397] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:133397] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:133499] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:133499] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:133600] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:133600] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:133704] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:133704] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:133872] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:133872] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:134039] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:134039] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: An invalid value was given for btl_tcp_if_exclude.  This
+value will be ignored.
+
+  Local host: cuda7
+  Value:      "wg0 lo"
+  Message:    Invalid specification (missing "/")
+--------------------------------------------------------------------------
+[cuda7:134200] 23 more processes have sent help message help-mpi-btl-tcp.txt / invalid if_inexclude
+[cuda7:134200] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages

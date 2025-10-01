@@ -1,0 +1,1922 @@
+
+     Program PHONON v.7.3.1 starts on 16Jun2025 at 11:17:10 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 29 465901 (2017);
+         "P. Giannozzi et al., J. Chem. Phys. 152 154105 (2020);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Parallel version (MPI), running on   256 processors
+
+     MPI processes distributed on     1 nodes
+     1532714 MiB available memory on the printing compute node when the environment starts
+
+     Waiting for input...
+     Reading input from standard input
+
+     Reading xml data from directory:
+
+     ./pwscf.save/
+
+     R & G space division:  proc/nbgrp/npool/nimage =     256
+     WARNING: too many processors for an effective parallelization!
+     wavefunctions fft division:  task group distribution
+                                  #TG    x Z-proc =       8     32
+     Subspace diagonalization in iterative solution of the eigenvalue problem:
+     one sub-group per band group will be used
+     custom distributed-memory algorithm (size of sub-group:  2*  2 procs)
+
+     file H.pbe-kjpaw_psl.1.0.0.UPF: wavefunction(s)  1S renormalized
+     file Zr.pbe-spn-kjpaw_psl.1.0.0.UPF: wavefunction(s)  4S 4P renormalized
+     file C.pbe-n-kjpaw_psl.1.0.0.UPF: wavefunction(s)  2S 2P renormalized
+     file O.pbe-n-kjpaw_psl.1.0.0.UPF: wavefunction(s)  2S 2P renormalized
+
+     IMPORTANT: XC functional enforced from input :
+     Exchange-correlation= PBE
+                           (   1   4   3   4   0   0   0)
+     Any further DFT definition will be discarded
+     Please, verify this is what you really want
+
+
+     Parallelization info
+     --------------------
+     sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
+     Min         186     124     31                27244    14826    1850
+     Max         187     125     32                27254    14834    1857
+     Sum       47779   31815   7951              6975737  3796127  474567
+
+     Using Pencil Decomposition
+
+
+     negative rho (up, down):  3.878E-05 0.000E+00
+     Reading collected, re-writing distributed wavefunctions in ./
+
+     Number and degeneracy of irreps per q-point
+       N         xq(1)         xq(2)         xq(3)   N irreps
+       1   0.000000000   0.000000000   0.000000000     324
+     No degeneracy
+
+     Calculation of q =    0.0000000   0.0000000   0.0000000
+
+     dielectric constant                                                        
+
+     bravais-lattice index     =            0
+     lattice parameter (alat)  =      27.5901  a.u.
+     unit-cell volume          =   15298.4621 (a.u.)^3
+     number of atoms/cell      =          108
+     number of atomic types    =            4
+     kinetic-energy cut-off    =     150.0000  Ry
+     charge density cut-off    =     900.0000  Ry
+     convergence threshold     =      1.0E-14
+     beta                      =       0.7000
+     number of iterations used =            4
+     Exchange-correlation= PBE
+                           (   1   4   3   4   0   0   0)
+
+
+     celldm(1)=   27.59010  celldm(2)=    0.00000  celldm(3)=    0.00000
+     celldm(4)=    0.00000  celldm(5)=    0.00000  celldm(6)=    0.00000
+
+     crystal axes: (cart. coord. in units of alat)
+               a(1) = (  0.9976  0.0001  0.0001 )  
+               a(2) = (  0.4733  0.8782  0.0001 )  
+               a(3) = (  0.4733  0.2826  0.8315 )  
+
+     reciprocal axes: (cart. coord. in units 2 pi/alat)
+               b(1) = (  1.0024 -0.5403 -0.3870 )  
+               b(2) = ( -0.0001  1.1388 -0.3870 )  
+               b(3) = ( -0.0001 -0.0000  1.2027 )  
+
+
+     Atoms inside the unit cell: 
+
+     Cartesian axes
+
+     site n.  atom      mass           positions (alat units)
+        1  Zr     91.2240   tau(    1) = (    0.98510    0.13910    0.10166  )
+        2  Zr     91.2240   tau(    2) = (    0.95920    1.02182    0.72996  )
+        3  Zr     91.2240   tau(    3) = (    0.59144    0.80032    0.09899  )
+        4  Zr     91.2240   tau(    4) = (    1.35286    0.36059    0.73262  )
+        5  Zr     91.2240   tau(    5) = (    0.58975    0.35404    0.72591  )
+        6  Zr     91.2240   tau(    6) = (    1.35455    0.80687    0.10570  )
+        7  O      15.9990   tau(    7) = (    1.08131    0.25368    0.07053  )
+        8  O      15.9990   tau(    8) = (    0.86299    0.90723    0.76108  )
+        9  O      15.9990   tau(    9) = (    0.64359    0.88150    0.21750  )
+       10  O      15.9990   tau(   10) = (    1.30072    0.27941    0.61411  )
+       11  O      15.9990   tau(   11) = (    0.73627    0.33433    0.76465  )
+       12  O      15.9990   tau(   12) = (    1.20804    0.82658    0.06696  )
+       13  O      15.9990   tau(   13) = (    1.21294    0.30691    0.76315  )
+       14  O      15.9990   tau(   14) = (    0.73137    0.85400    0.06847  )
+       15  O      15.9990   tau(   15) = (    1.29841    0.67817    0.04506  )
+       16  O      15.9990   tau(   16) = (    0.64589    0.48274    0.78656  )
+       17  O      15.9990   tau(   17) = (    0.84557    1.01928    0.62761  )
+       18  O      15.9990   tau(   18) = (    1.09873    0.14163    0.20400  )
+       19  O      15.9990   tau(   19) = (    1.04964    1.01738    0.61023  )
+       20  O      15.9990   tau(   20) = (    0.89466    0.14354    0.22139  )
+       21  O      15.9990   tau(   21) = (    1.29472    0.49466    0.76694  )
+       22  O      15.9990   tau(   22) = (    0.64959    0.66625    0.06467  )
+       23  O      15.9990   tau(   23) = (    1.39354    0.71980    0.22160  )
+       24  O      15.9990   tau(   24) = (    0.55076    0.44111    0.61002  )
+       25  O      15.9990   tau(   25) = (    0.55006    0.71164    0.21545  )
+       26  O      15.9990   tau(   26) = (    1.39425    0.44927    0.61617  )
+       27  O      15.9990   tau(   27) = (    0.64207    0.27884    0.60449  )
+       28  O      15.9990   tau(   28) = (    1.30223    0.88207    0.22713  )
+       29  O      15.9990   tau(   29) = (    0.88741    0.25117    0.06953  )
+       30  O      15.9990   tau(   30) = (    1.05689    0.90974    0.76209  )
+       31  O      15.9990   tau(   31) = (    0.87793    0.05275    0.03968  )
+       32  O      15.9990   tau(   32) = (    1.06638    1.10817    0.79194  )
+       33  O      15.9990   tau(   33) = (    0.46448    0.74699    0.03718  )
+       34  O      15.9990   tau(   34) = (    1.47983    0.41392    0.79444  )
+       35  O      15.9990   tau(   35) = (    0.46290    0.27818    0.69531  )
+       36  O      15.9990   tau(   36) = (    1.48140    0.88273    0.13631  )
+       37  C      12.0106   tau(   37) = (    1.31366    0.96311    0.25719  )
+       38  C      12.0106   tau(   38) = (    0.63065    0.19780    0.57443  )
+       39  C      12.0106   tau(   39) = (    1.11032    0.89393    0.82915  )
+       40  C      12.0106   tau(   40) = (    0.83398    0.26698    0.00246  )
+       41  C      12.0106   tau(   41) = (    1.47101    0.46860    0.57962  )
+       42  C      12.0106   tau(   42) = (    0.47329    0.69232    0.25199  )
+       43  C      12.0106   tau(   43) = (    0.80102    0.89778    0.82172  )
+       44  C      12.0106   tau(   44) = (    1.14328    0.26313    0.00989  )
+       45  C      12.0106   tau(   45) = (    1.31918    0.19906    0.58565  )
+       46  C      12.0106   tau(   46) = (    0.62512    0.96185    0.24596  )
+       47  C      12.0106   tau(   47) = (    1.17032    0.86788    0.00004  )
+       48  C      12.0106   tau(   48) = (    0.77399    0.29303    0.83157  )
+       49  C      12.0106   tau(   49) = (    1.18998    0.35421    0.00425  )
+       50  C      12.0106   tau(   50) = (    0.75433    0.80671    0.82737  )
+       51  C      12.0106   tau(   51) = (    0.66836    0.99160    0.33401  )
+       52  C      12.0106   tau(   52) = (    1.27595    0.16932    0.49761  )
+       53  C      12.0106   tau(   53) = (    0.87631    0.28701    0.83141  )
+       54  C      12.0106   tau(   54) = (    1.06800    0.87390    0.00021  )
+       55  C      12.0106   tau(   55) = (    0.68449    0.16878    0.49226  )
+       56  C      12.0106   tau(   56) = (    1.25982    0.99214    0.33936  )
+       57  C      12.0106   tau(   57) = (    0.78281    0.35571    0.00142  )
+       58  C      12.0106   tau(   58) = (    1.16149    0.80520    0.83019  )
+       59  C      12.0106   tau(   59) = (    0.47328    0.63420    0.33634  )
+       60  C      12.0106   tau(   60) = (    1.47102    0.52671    0.49527  )
+       61  C      12.0106   tau(   61) = (    1.16083    0.42676    0.06013  )
+       62  C      12.0106   tau(   62) = (    0.78348    0.73415    0.77149  )
+       63  C      12.0106   tau(   63) = (    0.72166    0.92976    0.38473  )
+       64  C      12.0106   tau(   64) = (    1.22265    0.23115    0.44689  )
+       65  C      12.0106   tau(   65) = (    0.92636    0.32059    0.75654  )
+       66  C      12.0106   tau(   66) = (    1.01795    0.84033    0.07507  )
+       67  C      12.0106   tau(   67) = (    1.02149    0.31621    0.75659  )
+       68  C      12.0106   tau(   68) = (    0.92281    0.84471    0.07503  )
+       69  C      12.0106   tau(   69) = (    1.20476    0.51116    0.05597  )
+       70  C      12.0106   tau(   70) = (    0.73955    0.64975    0.77565  )
+       71  C      12.0106   tau(   71) = (    0.76293    0.95742    0.46598  )
+       72  C      12.0106   tau(   72) = (    1.18137    0.20349    0.36564  )
+       73  C      12.0106   tau(   73) = (    1.14959    0.95747    0.45832  )
+       74  C      12.0106   tau(   74) = (    0.79472    0.20344    0.37329  )
+       75  C      12.0106   tau(   75) = (    1.19854    0.66002    0.75910  )
+       76  C      12.0106   tau(   76) = (    0.74576    0.50090    0.07252  )
+       77  C      12.0106   tau(   77) = (    1.38822    0.61342    0.38068  )
+       78  C      12.0106   tau(   78) = (    0.55608    0.54749    0.45093  )
+       79  C      12.0106   tau(   79) = (    0.55603    0.60090    0.37206  )
+       80  C      12.0106   tau(   80) = (    1.38827    0.56001    0.45955  )
+       81  C      12.0106   tau(   81) = (    0.74408    0.23067    0.44924  )
+       82  C      12.0106   tau(   82) = (    1.20022    0.93025    0.38237  )
+       83  C      12.0106   tau(   83) = (    0.79276    0.41805    0.07386  )
+       84  C      12.0106   tau(   84) = (    1.15155    0.74286    0.75776  )
+       85  H       1.0075   tau(   85) = (    1.19150    0.61108    0.70324  )
+       86  H       1.0075   tau(   86) = (    0.75280    0.54984    0.12837  )
+       87  H       1.0075   tau(   87) = (    1.32446    0.63978    0.35232  )
+       88  H       1.0075   tau(   88) = (    0.61984    0.52113    0.47930  )
+       89  H       1.0075   tau(   89) = (    1.10316    0.91006    0.49241  )
+       90  H       1.0075   tau(   90) = (    0.84114    0.25085    0.33921  )
+       91  H       1.0075   tau(   91) = (    0.83771    0.40039    0.13072  )
+       92  H       1.0075   tau(   92) = (    1.10659    0.76052    0.70089  )
+       93  H       1.0075   tau(   93) = (    0.61975    0.61763    0.33705  )
+       94  H       1.0075   tau(   94) = (    1.32455    0.54328    0.49457  )
+       95  H       1.0075   tau(   95) = (    0.74986    0.29993    0.47635  )
+       96  H       1.0075   tau(   96) = (    1.19444    0.86098    0.35526  )
+       97  H       1.0075   tau(   97) = (    0.72990    0.86010    0.35934  )
+       98  H       1.0075   tau(   98) = (    1.21440    0.30081    0.47227  )
+       99  H       1.0075   tau(   99) = (    0.88938    0.34988    0.69875  )
+      100  H       1.0075   tau(  100) = (    1.05493    0.81104    0.13287  )
+      101  H       1.0075   tau(  101) = (    1.10341    0.41570    0.10646  )
+      102  H       1.0075   tau(  102) = (    0.84089    0.74522    0.72516  )
+      103  H       1.0075   tau(  103) = (    0.80401    0.90993    0.50626  )
+      104  H       1.0075   tau(  104) = (    1.14029    0.25099    0.32535  )
+      105  H       1.0075   tau(  105) = (    1.06110    0.34153    0.69865  )
+      106  H       1.0075   tau(  106) = (    0.88320    0.81939    0.13296  )
+      107  H       1.0075   tau(  107) = (    1.18243    0.56819    0.09858  )
+      108  H       1.0075   tau(  108) = (    0.76187    0.59272    0.73304  )
+
+     Computing dynamical matrix for 
+                    q = (   0.0000000   0.0000000   0.0000000 )
+
+      3 Sym.Ops. (with q -> -q+G )
+
+
+     G cutoff =17353.5844  (  27245 G-vectors)     FFT grid: (270,270,270)
+     G cutoff =11569.0563  (  14834 G-vectors)  smooth grid: (216,216,216)
+     number of k points=     1
+                       cart. coord. in units 2pi/alat
+        k(    1) = (   0.0000000   0.0000000   0.0000000), wk =   2.0000000
+
+     PseudoPot. # 1 for H  read from file:
+     /home/mehlhorn/pseudos/UiO-66_pbe-spn-kjpaw/H.pbe-kjpaw_psl.1.0.0.UPF
+     MD5 check sum: d81a744832360e4a8af0b0b5b123bc2a
+     Pseudo is Projector augmented-wave, Zval =  1.0
+     Generated using &quot;atomic&quot; code by A. Dal Corso  v.6.3MaX
+     Shape of augmentation charge: PSQ
+     Using radial grid of  929 points,  2 beta functions with: 
+                l(1) =   0
+                l(2) =   0
+     Q(r) pseudized with 0 coefficients 
+
+
+     PseudoPot. # 2 for Zr read from file:
+     /home/mehlhorn/pseudos/UiO-66_pbe-spn-kjpaw/Zr.pbe-spn-kjpaw_psl.1.0.0.UPF
+     MD5 check sum: 02112c41713a0468aff2bb39ef194e36
+     Pseudo is Projector augmented-wave + core cor, Zval = 12.0
+     Generated using &quot;atomic&quot; code by A. Dal Corso  v.6.2.2
+     Shape of augmentation charge: PSQ
+     Using radial grid of 1225 points,  6 beta functions with: 
+                l(1) =   0
+                l(2) =   0
+                l(3) =   1
+                l(4) =   1
+                l(5) =   2
+                l(6) =   2
+     Q(r) pseudized with 0 coefficients 
+
+
+     PseudoPot. # 3 for C  read from file:
+     /home/mehlhorn/pseudos/UiO-66_pbe-spn-kjpaw/C.pbe-n-kjpaw_psl.1.0.0.UPF
+     MD5 check sum: 5f16ad9a65e90284d1d834d4ab3b0f7d
+     Pseudo is Projector augmented-wave + core cor, Zval =  4.0
+     Generated using &quot;atomic&quot; code by A. Dal Corso  v.6.3
+     Shape of augmentation charge: PSQ
+     Using radial grid of 1073 points,  4 beta functions with: 
+                l(1) =   0
+                l(2) =   0
+                l(3) =   1
+                l(4) =   1
+     Q(r) pseudized with 0 coefficients 
+
+
+     PseudoPot. # 4 for O  read from file:
+     /home/mehlhorn/pseudos/UiO-66_pbe-spn-kjpaw/O.pbe-n-kjpaw_psl.1.0.0.UPF
+     MD5 check sum: e99d9cef9b487d1ca56f5b95ecd0fd7a
+     Pseudo is Projector augmented-wave + core cor, Zval =  6.0
+     Generated using &quot;atomic&quot; code by A. Dal Corso  v.6.3
+     Shape of augmentation charge: PSQ
+     Using radial grid of 1095 points,  4 beta functions with: 
+                l(1) =   0
+                l(2) =   0
+                l(3) =   1
+                l(4) =   1
+     Q(r) pseudized with 0 coefficients 
+
+
+     Mode symmetry, C_i (-1)    point group:
+
+     k=gamma and q=gamma tricks are used
+
+
+     Electric field:
+     Dielectric constant and polarizability
+     Born effective charges as d Force / d E
+
+
+     Atomic displacements:
+     There are  324 irreducible representations
+
+     Representation     1      1 modes -  To be done
+
+     Representation     2      1 modes -  To be done
+
+     Representation     3      1 modes -  To be done
+
+     Representation     4      1 modes - Calculated using symmetry
+
+     Representation     5      1 modes - Calculated using symmetry
+
+     Representation     6      1 modes - Calculated using symmetry
+
+     Representation     7      1 modes -  To be done
+
+     Representation     8      1 modes -  To be done
+
+     Representation     9      1 modes -  To be done
+
+     Representation    10      1 modes - Calculated using symmetry
+
+     Representation    11      1 modes - Calculated using symmetry
+
+     Representation    12      1 modes - Calculated using symmetry
+
+     Representation    13      1 modes -  To be done
+
+     Representation    14      1 modes -  To be done
+
+     Representation    15      1 modes -  To be done
+
+     Representation    16      1 modes - Calculated using symmetry
+
+     Representation    17      1 modes - Calculated using symmetry
+
+     Representation    18      1 modes - Calculated using symmetry
+
+     Representation    19      1 modes -  To be done
+
+     Representation    20      1 modes -  To be done
+
+     Representation    21      1 modes -  To be done
+
+     Representation    22      1 modes - Calculated using symmetry
+
+     Representation    23      1 modes - Calculated using symmetry
+
+     Representation    24      1 modes - Calculated using symmetry
+
+     Representation    25      1 modes -  To be done
+
+     Representation    26      1 modes -  To be done
+
+     Representation    27      1 modes -  To be done
+
+     Representation    28      1 modes - Calculated using symmetry
+
+     Representation    29      1 modes - Calculated using symmetry
+
+     Representation    30      1 modes - Calculated using symmetry
+
+     Representation    31      1 modes -  To be done
+
+     Representation    32      1 modes -  To be done
+
+     Representation    33      1 modes -  To be done
+
+     Representation    34      1 modes - Calculated using symmetry
+
+     Representation    35      1 modes - Calculated using symmetry
+
+     Representation    36      1 modes - Calculated using symmetry
+
+     Representation    37      1 modes -  To be done
+
+     Representation    38      1 modes -  To be done
+
+     Representation    39      1 modes -  To be done
+
+     Representation    40      1 modes - Calculated using symmetry
+
+     Representation    41      1 modes - Calculated using symmetry
+
+     Representation    42      1 modes - Calculated using symmetry
+
+     Representation    43      1 modes -  To be done
+
+     Representation    44      1 modes -  To be done
+
+     Representation    45      1 modes -  To be done
+
+     Representation    46      1 modes - Calculated using symmetry
+
+     Representation    47      1 modes - Calculated using symmetry
+
+     Representation    48      1 modes - Calculated using symmetry
+
+     Representation    49      1 modes -  To be done
+
+     Representation    50      1 modes -  To be done
+
+     Representation    51      1 modes -  To be done
+
+     Representation    52      1 modes - Calculated using symmetry
+
+     Representation    53      1 modes - Calculated using symmetry
+
+     Representation    54      1 modes - Calculated using symmetry
+
+     Representation    55      1 modes -  To be done
+
+     Representation    56      1 modes -  To be done
+
+     Representation    57      1 modes -  To be done
+
+     Representation    58      1 modes - Calculated using symmetry
+
+     Representation    59      1 modes - Calculated using symmetry
+
+     Representation    60      1 modes - Calculated using symmetry
+
+     Representation    61      1 modes -  To be done
+
+     Representation    62      1 modes -  To be done
+
+     Representation    63      1 modes -  To be done
+
+     Representation    64      1 modes - Calculated using symmetry
+
+     Representation    65      1 modes - Calculated using symmetry
+
+     Representation    66      1 modes - Calculated using symmetry
+
+     Representation    67      1 modes -  To be done
+
+     Representation    68      1 modes -  To be done
+
+     Representation    69      1 modes -  To be done
+
+     Representation    70      1 modes - Calculated using symmetry
+
+     Representation    71      1 modes - Calculated using symmetry
+
+     Representation    72      1 modes - Calculated using symmetry
+
+     Representation    73      1 modes -  To be done
+
+     Representation    74      1 modes -  To be done
+
+     Representation    75      1 modes -  To be done
+
+     Representation    76      1 modes - Calculated using symmetry
+
+     Representation    77      1 modes - Calculated using symmetry
+
+     Representation    78      1 modes - Calculated using symmetry
+
+     Representation    79      1 modes -  To be done
+
+     Representation    80      1 modes -  To be done
+
+     Representation    81      1 modes -  To be done
+
+     Representation    82      1 modes - Calculated using symmetry
+
+     Representation    83      1 modes - Calculated using symmetry
+
+     Representation    84      1 modes - Calculated using symmetry
+
+     Representation    85      1 modes -  To be done
+
+     Representation    86      1 modes -  To be done
+
+     Representation    87      1 modes -  To be done
+
+     Representation    88      1 modes - Calculated using symmetry
+
+     Representation    89      1 modes - Calculated using symmetry
+
+     Representation    90      1 modes - Calculated using symmetry
+
+     Representation    91      1 modes -  To be done
+
+     Representation    92      1 modes -  To be done
+
+     Representation    93      1 modes -  To be done
+
+     Representation    94      1 modes - Calculated using symmetry
+
+     Representation    95      1 modes - Calculated using symmetry
+
+     Representation    96      1 modes - Calculated using symmetry
+
+     Representation    97      1 modes -  To be done
+
+     Representation    98      1 modes -  To be done
+
+     Representation    99      1 modes -  To be done
+
+     Representation   100      1 modes - Calculated using symmetry
+
+     Representation   101      1 modes - Calculated using symmetry
+
+     Representation   102      1 modes - Calculated using symmetry
+
+     Representation   103      1 modes -  To be done
+
+     Representation   104      1 modes -  To be done
+
+     Representation   105      1 modes -  To be done
+
+     Representation   106      1 modes - Calculated using symmetry
+
+     Representation   107      1 modes - Calculated using symmetry
+
+     Representation   108      1 modes - Calculated using symmetry
+
+     Representation   109      1 modes -  To be done
+
+     Representation   110      1 modes -  To be done
+
+     Representation   111      1 modes -  To be done
+
+     Representation   112      1 modes - Calculated using symmetry
+
+     Representation   113      1 modes - Calculated using symmetry
+
+     Representation   114      1 modes - Calculated using symmetry
+
+     Representation   115      1 modes -  To be done
+
+     Representation   116      1 modes -  To be done
+
+     Representation   117      1 modes -  To be done
+
+     Representation   118      1 modes - Calculated using symmetry
+
+     Representation   119      1 modes - Calculated using symmetry
+
+     Representation   120      1 modes - Calculated using symmetry
+
+     Representation   121      1 modes -  To be done
+
+     Representation   122      1 modes -  To be done
+
+     Representation   123      1 modes -  To be done
+
+     Representation   124      1 modes - Calculated using symmetry
+
+     Representation   125      1 modes - Calculated using symmetry
+
+     Representation   126      1 modes - Calculated using symmetry
+
+     Representation   127      1 modes -  To be done
+
+     Representation   128      1 modes -  To be done
+
+     Representation   129      1 modes -  To be done
+
+     Representation   130      1 modes - Calculated using symmetry
+
+     Representation   131      1 modes - Calculated using symmetry
+
+     Representation   132      1 modes - Calculated using symmetry
+
+     Representation   133      1 modes -  To be done
+
+     Representation   134      1 modes -  To be done
+
+     Representation   135      1 modes -  To be done
+
+     Representation   136      1 modes - Calculated using symmetry
+
+     Representation   137      1 modes - Calculated using symmetry
+
+     Representation   138      1 modes - Calculated using symmetry
+
+     Representation   139      1 modes -  To be done
+
+     Representation   140      1 modes -  To be done
+
+     Representation   141      1 modes -  To be done
+
+     Representation   142      1 modes - Calculated using symmetry
+
+     Representation   143      1 modes - Calculated using symmetry
+
+     Representation   144      1 modes - Calculated using symmetry
+
+     Representation   145      1 modes -  To be done
+
+     Representation   146      1 modes -  To be done
+
+     Representation   147      1 modes -  To be done
+
+     Representation   148      1 modes - Calculated using symmetry
+
+     Representation   149      1 modes - Calculated using symmetry
+
+     Representation   150      1 modes - Calculated using symmetry
+
+     Representation   151      1 modes -  To be done
+
+     Representation   152      1 modes -  To be done
+
+     Representation   153      1 modes -  To be done
+
+     Representation   154      1 modes - Calculated using symmetry
+
+     Representation   155      1 modes - Calculated using symmetry
+
+     Representation   156      1 modes - Calculated using symmetry
+
+     Representation   157      1 modes -  To be done
+
+     Representation   158      1 modes -  To be done
+
+     Representation   159      1 modes -  To be done
+
+     Representation   160      1 modes - Calculated using symmetry
+
+     Representation   161      1 modes - Calculated using symmetry
+
+     Representation   162      1 modes - Calculated using symmetry
+
+     Representation   163      1 modes -  To be done
+
+     Representation   164      1 modes -  To be done
+
+     Representation   165      1 modes -  To be done
+
+     Representation   166      1 modes - Calculated using symmetry
+
+     Representation   167      1 modes - Calculated using symmetry
+
+     Representation   168      1 modes - Calculated using symmetry
+
+     Representation   169      1 modes -  To be done
+
+     Representation   170      1 modes -  To be done
+
+     Representation   171      1 modes -  To be done
+
+     Representation   172      1 modes - Calculated using symmetry
+
+     Representation   173      1 modes - Calculated using symmetry
+
+     Representation   174      1 modes - Calculated using symmetry
+
+     Representation   175      1 modes -  To be done
+
+     Representation   176      1 modes -  To be done
+
+     Representation   177      1 modes -  To be done
+
+     Representation   178      1 modes - Calculated using symmetry
+
+     Representation   179      1 modes - Calculated using symmetry
+
+     Representation   180      1 modes - Calculated using symmetry
+
+     Representation   181      1 modes -  To be done
+
+     Representation   182      1 modes -  To be done
+
+     Representation   183      1 modes -  To be done
+
+     Representation   184      1 modes - Calculated using symmetry
+
+     Representation   185      1 modes - Calculated using symmetry
+
+     Representation   186      1 modes - Calculated using symmetry
+
+     Representation   187      1 modes -  To be done
+
+     Representation   188      1 modes -  To be done
+
+     Representation   189      1 modes -  To be done
+
+     Representation   190      1 modes - Calculated using symmetry
+
+     Representation   191      1 modes - Calculated using symmetry
+
+     Representation   192      1 modes - Calculated using symmetry
+
+     Representation   193      1 modes -  To be done
+
+     Representation   194      1 modes -  To be done
+
+     Representation   195      1 modes -  To be done
+
+     Representation   196      1 modes - Calculated using symmetry
+
+     Representation   197      1 modes - Calculated using symmetry
+
+     Representation   198      1 modes - Calculated using symmetry
+
+     Representation   199      1 modes -  To be done
+
+     Representation   200      1 modes -  To be done
+
+     Representation   201      1 modes -  To be done
+
+     Representation   202      1 modes - Calculated using symmetry
+
+     Representation   203      1 modes - Calculated using symmetry
+
+     Representation   204      1 modes - Calculated using symmetry
+
+     Representation   205      1 modes -  To be done
+
+     Representation   206      1 modes -  To be done
+
+     Representation   207      1 modes -  To be done
+
+     Representation   208      1 modes - Calculated using symmetry
+
+     Representation   209      1 modes - Calculated using symmetry
+
+     Representation   210      1 modes - Calculated using symmetry
+
+     Representation   211      1 modes -  To be done
+
+     Representation   212      1 modes -  To be done
+
+     Representation   213      1 modes -  To be done
+
+     Representation   214      1 modes - Calculated using symmetry
+
+     Representation   215      1 modes - Calculated using symmetry
+
+     Representation   216      1 modes - Calculated using symmetry
+
+     Representation   217      1 modes -  To be done
+
+     Representation   218      1 modes -  To be done
+
+     Representation   219      1 modes -  To be done
+
+     Representation   220      1 modes - Calculated using symmetry
+
+     Representation   221      1 modes - Calculated using symmetry
+
+     Representation   222      1 modes - Calculated using symmetry
+
+     Representation   223      1 modes -  To be done
+
+     Representation   224      1 modes -  To be done
+
+     Representation   225      1 modes -  To be done
+
+     Representation   226      1 modes - Calculated using symmetry
+
+     Representation   227      1 modes - Calculated using symmetry
+
+     Representation   228      1 modes - Calculated using symmetry
+
+     Representation   229      1 modes -  To be done
+
+     Representation   230      1 modes -  To be done
+
+     Representation   231      1 modes -  To be done
+
+     Representation   232      1 modes - Calculated using symmetry
+
+     Representation   233      1 modes - Calculated using symmetry
+
+     Representation   234      1 modes - Calculated using symmetry
+
+     Representation   235      1 modes -  To be done
+
+     Representation   236      1 modes -  To be done
+
+     Representation   237      1 modes -  To be done
+
+     Representation   238      1 modes - Calculated using symmetry
+
+     Representation   239      1 modes - Calculated using symmetry
+
+     Representation   240      1 modes - Calculated using symmetry
+
+     Representation   241      1 modes -  To be done
+
+     Representation   242      1 modes -  To be done
+
+     Representation   243      1 modes -  To be done
+
+     Representation   244      1 modes - Calculated using symmetry
+
+     Representation   245      1 modes - Calculated using symmetry
+
+     Representation   246      1 modes - Calculated using symmetry
+
+     Representation   247      1 modes -  To be done
+
+     Representation   248      1 modes -  To be done
+
+     Representation   249      1 modes -  To be done
+
+     Representation   250      1 modes - Calculated using symmetry
+
+     Representation   251      1 modes - Calculated using symmetry
+
+     Representation   252      1 modes - Calculated using symmetry
+
+     Representation   253      1 modes -  To be done
+
+     Representation   254      1 modes -  To be done
+
+     Representation   255      1 modes -  To be done
+
+     Representation   256      1 modes - Calculated using symmetry
+
+     Representation   257      1 modes - Calculated using symmetry
+
+     Representation   258      1 modes - Calculated using symmetry
+
+     Representation   259      1 modes -  To be done
+
+     Representation   260      1 modes -  To be done
+
+     Representation   261      1 modes -  To be done
+
+     Representation   262      1 modes - Calculated using symmetry
+
+     Representation   263      1 modes - Calculated using symmetry
+
+     Representation   264      1 modes - Calculated using symmetry
+
+     Representation   265      1 modes -  To be done
+
+     Representation   266      1 modes -  To be done
+
+     Representation   267      1 modes -  To be done
+
+     Representation   268      1 modes - Calculated using symmetry
+
+     Representation   269      1 modes - Calculated using symmetry
+
+     Representation   270      1 modes - Calculated using symmetry
+
+     Representation   271      1 modes -  To be done
+
+     Representation   272      1 modes -  To be done
+
+     Representation   273      1 modes -  To be done
+
+     Representation   274      1 modes - Calculated using symmetry
+
+     Representation   275      1 modes - Calculated using symmetry
+
+     Representation   276      1 modes - Calculated using symmetry
+
+     Representation   277      1 modes -  To be done
+
+     Representation   278      1 modes -  To be done
+
+     Representation   279      1 modes -  To be done
+
+     Representation   280      1 modes - Calculated using symmetry
+
+     Representation   281      1 modes - Calculated using symmetry
+
+     Representation   282      1 modes - Calculated using symmetry
+
+     Representation   283      1 modes -  To be done
+
+     Representation   284      1 modes -  To be done
+
+     Representation   285      1 modes -  To be done
+
+     Representation   286      1 modes - Calculated using symmetry
+
+     Representation   287      1 modes - Calculated using symmetry
+
+     Representation   288      1 modes - Calculated using symmetry
+
+     Representation   289      1 modes -  To be done
+
+     Representation   290      1 modes -  To be done
+
+     Representation   291      1 modes -  To be done
+
+     Representation   292      1 modes - Calculated using symmetry
+
+     Representation   293      1 modes - Calculated using symmetry
+
+     Representation   294      1 modes - Calculated using symmetry
+
+     Representation   295      1 modes -  To be done
+
+     Representation   296      1 modes -  To be done
+
+     Representation   297      1 modes -  To be done
+
+     Representation   298      1 modes - Calculated using symmetry
+
+     Representation   299      1 modes - Calculated using symmetry
+
+     Representation   300      1 modes - Calculated using symmetry
+
+     Representation   301      1 modes -  To be done
+
+     Representation   302      1 modes -  To be done
+
+     Representation   303      1 modes -  To be done
+
+     Representation   304      1 modes - Calculated using symmetry
+
+     Representation   305      1 modes - Calculated using symmetry
+
+     Representation   306      1 modes - Calculated using symmetry
+
+     Representation   307      1 modes -  To be done
+
+     Representation   308      1 modes -  To be done
+
+     Representation   309      1 modes -  To be done
+
+     Representation   310      1 modes - Calculated using symmetry
+
+     Representation   311      1 modes - Calculated using symmetry
+
+     Representation   312      1 modes - Calculated using symmetry
+
+     Representation   313      1 modes -  To be done
+
+     Representation   314      1 modes -  To be done
+
+     Representation   315      1 modes -  To be done
+
+     Representation   316      1 modes - Calculated using symmetry
+
+     Representation   317      1 modes - Calculated using symmetry
+
+     Representation   318      1 modes - Calculated using symmetry
+
+     Representation   319      1 modes -  To be done
+
+     Representation   320      1 modes -  To be done
+
+     Representation   321      1 modes -  To be done
+
+     Representation   322      1 modes - Calculated using symmetry
+
+     Representation   323      1 modes - Calculated using symmetry
+
+     Representation   324      1 modes - Calculated using symmetry
+
+
+     PHONON       :  40m45.71s CPU  41m17.56s WALL
+
+
+     Electric Fields Calculation
+
+      iter #   1 total cpu time :  5452.5 secs   av.it.:  16.0
+      thresh= 1.000E-02 alpha_mix =  0.700 |ddv_scf|^2 =  2.158E-09
+
+      iter #   2 total cpu time :  6907.3 secs   av.it.:  40.0
+      thresh= 4.645E-06 alpha_mix =  0.700 |ddv_scf|^2 =  5.365E-09
+
+      iter #   3 total cpu time :  8283.6 secs   av.it.:  38.0
+      thresh= 7.325E-06 alpha_mix =  0.700 |ddv_scf|^2 =  2.102E-10
+
+      iter #   4 total cpu time :  9714.1 secs   av.it.:  40.0
+      thresh= 1.450E-06 alpha_mix =  0.700 |ddv_scf|^2 =  1.071E-10
+
+      iter #   5 total cpu time : 11093.8 secs   av.it.:  38.0
+      thresh= 1.035E-06 alpha_mix =  0.700 |ddv_scf|^2 =  8.996E-12
+
+      iter #   6 total cpu time : 12504.6 secs   av.it.:  39.0
+      thresh= 2.999E-07 alpha_mix =  0.700 |ddv_scf|^2 =  7.193E-13
+
+      iter #   7 total cpu time : 13989.1 secs   av.it.:  41.0
+      thresh= 8.481E-08 alpha_mix =  0.700 |ddv_scf|^2 =  4.792E-13
+
+      iter #   8 total cpu time : 15423.0 secs   av.it.:  40.0
+      thresh= 6.922E-08 alpha_mix =  0.700 |ddv_scf|^2 =  1.247E-13
+
+      iter #   9 total cpu time : 16816.5 secs   av.it.:  38.7
+      thresh= 3.531E-08 alpha_mix =  0.700 |ddv_scf|^2 =  6.540E-15
+
+     End of electric fields calculation
+
+          Dielectric constant in cartesian axis 
+
+          (       2.130266210      -0.037986906      -0.027217846 )
+          (      -0.037986922       2.171216116      -0.016248172 )
+          (      -0.027217884      -0.016248373       2.182264763 )
+
+     Polarizability (a.u.)^3                    Polarizability (A^3)
+    999.45    -46.25    -33.14           148.1035       -6.8529       -4.9102
+    -46.25   1025.49    -19.78            -6.8529      151.9627       -2.9312
+    -33.14    -19.78   1032.43            -4.9102       -2.9312      152.9910
+
+          Effective charges (d Force / dE) in cartesian axis without acoustic sum rule applied (asr)
+
+           atom    1  Zr    Mean Z*:        4.97453
+      Ex  (        4.70765        0.06436       -0.07307 )
+      Ey  (        0.18185        4.87442       -0.60458 )
+      Ez  (        0.27134       -0.62544        5.34151 )
+           atom    2  Zr    Mean Z*:        4.97453
+      Ex  (        4.70765        0.06436       -0.07307 )
+      Ey  (        0.18185        4.87442       -0.60458 )
+      Ez  (        0.27134       -0.62544        5.34151 )
+           atom    3  Zr    Mean Z*:        4.97454
+      Ex  (        4.98244        0.16733       -0.52373 )
+      Ey  (       -0.19655        4.64363        0.37811 )
+      Ez  (       -0.50514        0.36858        5.29757 )
+           atom    4  Zr    Mean Z*:        4.97454
+      Ex  (        4.98244        0.16733       -0.52373 )
+      Ey  (       -0.19655        4.64363        0.37811 )
+      Ez  (       -0.50514        0.36858        5.29757 )
+           atom    5  Zr    Mean Z*:        4.97452
+      Ex  (        4.93973       -0.51844        0.23614 )
+      Ey  (       -0.41897        5.50007        0.24411 )
+      Ez  (        0.07826       -0.06893        4.48376 )
+           atom    6  Zr    Mean Z*:        4.97452
+      Ex  (        4.93973       -0.51844        0.23614 )
+      Ey  (       -0.41897        5.50007        0.24411 )
+      Ez  (        0.07826       -0.06893        4.48376 )
+           atom    7  O     Mean Z*:       -1.57269
+      Ex  (       -1.80000       -1.01632        0.84836 )
+      Ey  (       -1.09720       -1.77378        0.50594 )
+      Ez  (        0.71060        0.38153       -1.14429 )
+           atom    8  O     Mean Z*:       -1.57269
+      Ex  (       -1.80000       -1.01632        0.84836 )
+      Ey  (       -1.09720       -1.77378        0.50594 )
+      Ez  (        0.71060        0.38153       -1.14429 )
+           atom    9  O     Mean Z*:       -1.57273
+      Ex  (       -0.80043       -0.21886       -0.49981 )
+      Ey  (       -0.06242       -1.93875       -1.13386 )
+      Ez  (       -0.40558       -1.22122       -1.97900 )
+           atom   10  O     Mean Z*:       -1.57273
+      Ex  (       -0.80043       -0.21886       -0.49981 )
+      Ey  (       -0.06242       -1.93875       -1.13386 )
+      Ez  (       -0.40558       -1.22122       -1.97900 )
+           atom   11  O     Mean Z*:       -1.57270
+      Ex  (       -2.66228        0.59919       -0.87166 )
+      Ey  (        0.45968       -0.83036        0.41700 )
+      Ez  (       -0.73886        0.47923       -1.22545 )
+           atom   12  O     Mean Z*:       -1.57270
+      Ex  (       -2.66228        0.59919       -0.87166 )
+      Ey  (        0.45968       -0.83036        0.41700 )
+      Ez  (       -0.73886        0.47923       -1.22545 )
+           atom   13  O     Mean Z*:       -1.62253
+      Ex  (       -2.76533       -0.62954        0.98549 )
+      Ey  (       -0.52813       -0.76847        0.43901 )
+      Ez  (        0.76159        0.35137       -1.33380 )
+           atom   14  O     Mean Z*:       -1.62253
+      Ex  (       -2.76533       -0.62954        0.98549 )
+      Ey  (       -0.52813       -0.76847        0.43901 )
+      Ez  (        0.76159        0.35137       -1.33380 )
+           atom   15  O     Mean Z*:       -1.62253
+      Ex  (       -0.88874       -0.46008       -0.04428 )
+      Ey  (       -0.28069       -2.91109       -1.01341 )
+      Ez  (        0.11258       -0.90702       -1.06776 )
+           atom   16  O     Mean Z*:       -1.62253
+      Ex  (       -0.88874       -0.46008       -0.04428 )
+      Ey  (       -0.28069       -2.91109       -1.01341 )
+      Ez  (        0.11258       -0.90702       -1.06776 )
+           atom   17  O     Mean Z*:       -1.62253
+      Ex  (       -1.70125        0.45414       -1.31768 )
+      Ey  (        0.24788       -1.03110        0.23141 )
+      Ez  (       -1.35472        0.38697       -2.13523 )
+           atom   18  O     Mean Z*:       -1.62253
+      Ex  (       -1.70125        0.45414       -1.31768 )
+      Ey  (        0.24788       -1.03110        0.23141 )
+      Ez  (       -1.35472        0.38697       -2.13523 )
+           atom   19  O     Mean Z*:       -1.66040
+      Ex  (       -1.74846       -0.37966        1.38279 )
+      Ey  (       -0.31007       -1.00644        0.19649 )
+      Ez  (        1.50867        0.33062       -2.22630 )
+           atom   20  O     Mean Z*:       -1.66040
+      Ex  (       -1.74846       -0.37966        1.38279 )
+      Ey  (       -0.31007       -1.00644        0.19649 )
+      Ez  (        1.50867        0.33062       -2.22630 )
+           atom   21  O     Mean Z*:       -1.66043
+      Ex  (       -0.84589        0.84232        0.18860 )
+      Ey  (        0.70074       -2.84205       -1.01532 )
+      Ez  (        0.08256       -0.92940       -1.29335 )
+           atom   22  O     Mean Z*:       -1.66043
+      Ex  (       -0.84589        0.84232        0.18860 )
+      Ey  (        0.70074       -2.84205       -1.01532 )
+      Ez  (        0.08256       -0.92940       -1.29335 )
+           atom   23  O     Mean Z*:       -1.66038
+      Ex  (       -1.46145        0.63532       -0.70673 )
+      Ey  (        0.78126       -1.43046        1.21784 )
+      Ez  (       -0.82977        1.17062       -2.08924 )
+           atom   24  O     Mean Z*:       -1.66038
+      Ex  (       -1.46145        0.63532       -0.70673 )
+      Ey  (        0.78126       -1.43046        1.21784 )
+      Ez  (       -0.82977        1.17062       -2.08924 )
+           atom   25  O     Mean Z*:       -1.62179
+      Ex  (       -1.46013       -0.44452        0.80115 )
+      Ey  (       -0.49818       -1.25703        1.05836 )
+      Ez  (        0.97062        1.11900       -2.14822 )
+           atom   26  O     Mean Z*:       -1.62179
+      Ex  (       -1.46013       -0.44452        0.80115 )
+      Ey  (       -0.49818       -1.25703        1.05836 )
+      Ez  (        0.97062        1.11900       -2.14822 )
+           atom   27  O     Mean Z*:       -1.62177
+      Ex  (       -0.83395        0.42128        0.70372 )
+      Ey  (        0.27809       -2.01882       -1.15011 )
+      Ez  (        0.60037       -1.21406       -2.01253 )
+           atom   28  O     Mean Z*:       -1.62177
+      Ex  (       -0.83395        0.42128        0.70372 )
+      Ey  (        0.27809       -2.01882       -1.15011 )
+      Ez  (        0.60037       -1.21406       -2.01253 )
+           atom   29  O     Mean Z*:       -1.62175
+      Ex  (       -1.69633        1.12261       -0.77318 )
+      Ey  (        1.26654       -1.87094        0.61252 )
+      Ez  (       -0.76544        0.49210       -1.29797 )
+           atom   30  O     Mean Z*:       -1.62175
+      Ex  (       -1.69633        1.12261       -0.77318 )
+      Ey  (        1.26654       -1.87094        0.61252 )
+      Ez  (       -0.76544        0.49210       -1.29797 )
+           atom   31  O     Mean Z*:       -2.05464
+      Ex  (       -1.56294       -0.28503       -0.24167 )
+      Ey  (       -0.18114       -2.15738        0.54585 )
+      Ez  (       -0.13959        0.58306       -2.44360 )
+           atom   32  O     Mean Z*:       -2.05464
+      Ex  (       -1.56294       -0.28503       -0.24167 )
+      Ey  (       -0.18114       -2.15738        0.54585 )
+      Ez  (       -0.13959        0.58306       -2.44360 )
+           atom   33  O     Mean Z*:       -2.05465
+      Ex  (       -2.16930        0.13632        0.39606 )
+      Ey  (        0.00621       -1.46368       -0.43159 )
+      Ez  (        0.39430       -0.35631       -2.53096 )
+           atom   34  O     Mean Z*:       -2.05465
+      Ex  (       -2.16930        0.13632        0.39606 )
+      Ey  (        0.00621       -1.46368       -0.43159 )
+      Ez  (        0.39430       -0.35631       -2.53096 )
+           atom   35  O     Mean Z*:       -2.05465
+      Ex  (       -2.21832        0.40173        0.04514 )
+      Ey  (        0.44525       -2.61149       -0.02245 )
+      Ez  (       -0.07935       -0.09467       -1.33414 )
+           atom   36  O     Mean Z*:       -2.05465
+      Ex  (       -2.21832        0.40173        0.04514 )
+      Ey  (        0.44525       -2.61149       -0.02245 )
+      Ez  (       -0.07935       -0.09467       -1.33414 )
+           atom   37  C     Mean Z*:        2.09314
+      Ex  (        1.58494        0.21304       -1.54598 )
+      Ey  (        0.24167        2.11127        0.73186 )
+      Ez  (       -1.60476        0.70566        2.58321 )
+           atom   38  C     Mean Z*:        2.09314
+      Ex  (        1.58494        0.21304       -1.54598 )
+      Ey  (        0.24167        2.11127        0.73186 )
+      Ez  (       -1.60476        0.70566        2.58321 )
+           atom   39  C     Mean Z*:        2.09312
+      Ex  (        1.47537       -1.38261        0.69527 )
+      Ey  (       -1.33615        3.08177        0.41951 )
+      Ez  (        0.74022        0.44760        1.72223 )
+           atom   40  C     Mean Z*:        2.09312
+      Ex  (        1.47537       -1.38261        0.69527 )
+      Ey  (       -1.33615        3.08177        0.41951 )
+      Ez  (        0.74022        0.44760        1.72223 )
+           atom   41  C     Mean Z*:        2.09313
+      Ex  (        2.18272       -0.11024       -0.04751 )
+      Ey  (       -0.16768        1.41976       -1.71561 )
+      Ez  (       -0.05823       -1.67629        2.67692 )
+           atom   42  C     Mean Z*:        2.09313
+      Ex  (        2.18272       -0.11024       -0.04751 )
+      Ey  (       -0.16768        1.41976       -1.71561 )
+      Ez  (       -0.05823       -1.67629        2.67692 )
+           atom   43  C     Mean Z*:        2.02441
+      Ex  (        1.50558        1.04432       -0.89622 )
+      Ey  (        0.90189        3.18930        0.30572 )
+      Ez  (       -0.95568        0.44210        1.37836 )
+           atom   44  C     Mean Z*:        2.02441
+      Ex  (        1.50558        1.04432       -0.89622 )
+      Ey  (        0.90189        3.18930        0.30572 )
+      Ez  (       -0.95568        0.44210        1.37836 )
+           atom   45  C     Mean Z*:        2.02440
+      Ex  (        1.25808       -0.48130        1.41254 )
+      Ey  (       -0.37919        2.04114        0.68960 )
+      Ez  (        1.23759        0.65239        2.77398 )
+           atom   46  C     Mean Z*:        2.02440
+      Ex  (        1.25808       -0.48130        1.41254 )
+      Ey  (       -0.37919        2.04114        0.68960 )
+      Ez  (        1.23759        0.65239        2.77398 )
+           atom   47  C     Mean Z*:        2.02439
+      Ex  (        3.62308       -0.22466       -0.17627 )
+      Ey  (       -0.09187        0.74188       -0.93895 )
+      Ez  (       -0.07099       -0.82191        1.70820 )
+           atom   48  C     Mean Z*:        2.02439
+      Ex  (        3.62308       -0.22466       -0.17627 )
+      Ey  (       -0.09187        0.74188       -0.93895 )
+      Ez  (       -0.07099       -0.82191        1.70820 )
+           atom   49  C     Mean Z*:       -0.35727
+      Ex  (       -0.20735       -0.42558        0.04226 )
+      Ey  (       -0.40761       -0.83244        0.02576 )
+      Ez  (        0.03741        0.01479       -0.03202 )
+           atom   50  C     Mean Z*:       -0.35727
+      Ex  (       -0.20735       -0.42558        0.04226 )
+      Ey  (       -0.40761       -0.83244        0.02576 )
+      Ez  (        0.03741        0.01479       -0.03202 )
+           atom   51  C     Mean Z*:       -0.35726
+      Ex  (       -0.20656       -0.09612       -0.40292 )
+      Ey  (       -0.09736       -0.10331       -0.25607 )
+      Ez  (       -0.38448       -0.24484       -0.76192 )
+           atom   52  C     Mean Z*:       -0.35726
+      Ex  (       -0.20656       -0.09612       -0.40292 )
+      Ey  (       -0.09736       -0.10331       -0.25607 )
+      Ez  (       -0.38448       -0.24484       -0.76192 )
+           atom   53  C     Mean Z*:       -0.35726
+      Ex  (       -1.03967        0.05358        0.02506 )
+      Ey  (        0.03652       -0.01321        0.03039 )
+      Ez  (        0.01181        0.02945       -0.01891 )
+           atom   54  C     Mean Z*:       -0.35726
+      Ex  (       -1.03967        0.05358        0.02506 )
+      Ey  (        0.03652       -0.01321        0.03039 )
+      Ez  (        0.01181        0.02945       -0.01891 )
+           atom   55  C     Mean Z*:       -0.38525
+      Ex  (       -0.31896        0.16676        0.46487 )
+      Ey  (        0.15275       -0.10488       -0.25671 )
+      Ez  (        0.48828       -0.24460       -0.73190 )
+           atom   56  C     Mean Z*:       -0.38525
+      Ex  (       -0.31896        0.16676        0.46487 )
+      Ey  (        0.15275       -0.10488       -0.25671 )
+      Ez  (        0.48828       -0.24460       -0.73190 )
+           atom   57  C     Mean Z*:       -0.38523
+      Ex  (       -0.28723        0.49434        0.00246 )
+      Ey  (        0.47666       -0.85139        0.00810 )
+      Ez  (       -0.01806       -0.00442       -0.01708 )
+           atom   58  C     Mean Z*:       -0.38523
+      Ex  (       -0.28723        0.49434        0.00246 )
+      Ey  (        0.47666       -0.85139        0.00810 )
+      Ez  (       -0.01806       -0.00442       -0.01708 )
+           atom   59  C     Mean Z*:       -0.38526
+      Ex  (       -0.01964       -0.00794       -0.00632 )
+      Ey  (        0.01722       -0.36994        0.53421 )
+      Ez  (       -0.00013        0.51937       -0.76619 )
+           atom   60  C     Mean Z*:       -0.38526
+      Ex  (       -0.01964       -0.00794       -0.00632 )
+      Ey  (        0.01722       -0.36994        0.53421 )
+      Ez  (       -0.00013        0.51937       -0.76619 )
+           atom   61  C     Mean Z*:       -0.06415
+      Ex  (       -0.02237        0.09483       -0.04042 )
+      Ey  (       -0.06950       -0.11618        0.08472 )
+      Ez  (       -0.10531       -0.07824       -0.05391 )
+           atom   62  C     Mean Z*:       -0.06415
+      Ex  (       -0.02237        0.09483       -0.04042 )
+      Ey  (       -0.06950       -0.11618        0.08472 )
+      Ez  (       -0.10531       -0.07824       -0.05391 )
+           atom   63  C     Mean Z*:       -0.06414
+      Ex  (       -0.10450       -0.07782       -0.03740 )
+      Ey  (        0.03650        0.02377        0.13692 )
+      Ez  (        0.04217       -0.05898       -0.11170 )
+           atom   64  C     Mean Z*:       -0.06414
+      Ex  (       -0.10450       -0.07782       -0.03740 )
+      Ey  (        0.03650        0.02377        0.13692 )
+      Ez  (        0.04217       -0.05898       -0.11170 )
+           atom   65  C     Mean Z*:       -0.06415
+      Ex  (       -0.08449        0.04089       -0.05195 )
+      Ey  (       -0.07124       -0.09396       -0.04204 )
+      Ez  (        0.15974       -0.06223       -0.01401 )
+           atom   66  C     Mean Z*:       -0.06415
+      Ex  (       -0.08449        0.04089       -0.05195 )
+      Ey  (       -0.07124       -0.09396       -0.04204 )
+      Ez  (        0.15974       -0.06223       -0.01401 )
+           atom   67  C     Mean Z*:       -0.06771
+      Ex  (       -0.08609       -0.04907        0.04402 )
+      Ey  (        0.06336       -0.09509       -0.04218 )
+      Ez  (       -0.16249       -0.04136       -0.02196 )
+           atom   68  C     Mean Z*:       -0.06771
+      Ex  (       -0.08609       -0.04907        0.04402 )
+      Ey  (        0.06336       -0.09509       -0.04218 )
+      Ez  (       -0.16249       -0.04136       -0.02196 )
+           atom   69  C     Mean Z*:       -0.06769
+      Ex  (       -0.10690       -0.12226       -0.07718 )
+      Ey  (        0.03711       -0.03412       -0.02726 )
+      Ez  (        0.00412        0.12534       -0.06204 )
+           atom   70  C     Mean Z*:       -0.06769
+      Ex  (       -0.10690       -0.12226       -0.07718 )
+      Ey  (        0.03711       -0.03412       -0.02726 )
+      Ez  (        0.00412        0.12534       -0.06204 )
+           atom   71  C     Mean Z*:       -0.06770
+      Ex  (       -0.08708        0.00517        0.06572 )
+      Ey  (       -0.12309       -0.04912       -0.13872 )
+      Ez  (       -0.00942        0.04349       -0.06690 )
+           atom   72  C     Mean Z*:       -0.06770
+      Ex  (       -0.08708        0.00517        0.06572 )
+      Ey  (       -0.12309       -0.04912       -0.13872 )
+      Ez  (       -0.00942        0.04349       -0.06690 )
+           atom   73  C     Mean Z*:       -0.06264
+      Ex  (       -0.05714       -0.01320       -0.07079 )
+      Ey  (        0.13510       -0.04699       -0.13069 )
+      Ez  (       -0.00613        0.05628       -0.08378 )
+           atom   74  C     Mean Z*:       -0.06264
+      Ex  (       -0.05714       -0.01320       -0.07079 )
+      Ey  (        0.13510       -0.04699       -0.13069 )
+      Ez  (       -0.00613        0.05628       -0.08378 )
+           atom   75  C     Mean Z*:       -0.06266
+      Ex  (       -0.10645        0.06425        0.07106 )
+      Ey  (       -0.04470       -0.05338       -0.02664 )
+      Ez  (       -0.03677        0.16733       -0.02816 )
+           atom   76  C     Mean Z*:       -0.06266
+      Ex  (       -0.10645        0.06425        0.07106 )
+      Ey  (       -0.04470       -0.05338       -0.02664 )
+      Ez  (       -0.03677        0.16733       -0.02816 )
+           atom   77  C     Mean Z*:       -0.06265
+      Ex  (        0.00160       -0.10743        0.14572 )
+      Ey  (        0.02972       -0.09594       -0.03541 )
+      Ez  (       -0.05750       -0.00364       -0.09362 )
+           atom   78  C     Mean Z*:       -0.06265
+      Ex  (        0.00160       -0.10743        0.14572 )
+      Ey  (        0.02972       -0.09594       -0.03541 )
+      Ez  (       -0.05750       -0.00364       -0.09362 )
+           atom   79  C     Mean Z*:       -0.05979
+      Ex  (        0.00371        0.09424       -0.15295 )
+      Ey  (       -0.05008       -0.10871       -0.00316 )
+      Ez  (        0.04779       -0.03230       -0.07437 )
+           atom   80  C     Mean Z*:       -0.05979
+      Ex  (        0.00371        0.09424       -0.15295 )
+      Ey  (       -0.05008       -0.10871       -0.00316 )
+      Ez  (        0.04779       -0.03230       -0.07437 )
+           atom   81  C     Mean Z*:       -0.05981
+      Ex  (       -0.10359        0.08693        0.03126 )
+      Ey  (       -0.05667        0.01853        0.14038 )
+      Ez  (       -0.03854       -0.05055       -0.09438 )
+           atom   82  C     Mean Z*:       -0.05981
+      Ex  (       -0.10359        0.08693        0.03126 )
+      Ey  (       -0.05667        0.01853        0.14038 )
+      Ez  (       -0.03854       -0.05055       -0.09438 )
+           atom   83  C     Mean Z*:       -0.05981
+      Ex  (       -0.06500       -0.07553        0.01186 )
+      Ey  (        0.03679       -0.09392        0.07569 )
+      Ez  (        0.12612       -0.11483       -0.02051 )
+           atom   84  C     Mean Z*:       -0.05981
+      Ex  (       -0.06500       -0.07553        0.01186 )
+      Ey  (        0.03679       -0.09392        0.07569 )
+      Ez  (        0.12612       -0.11483       -0.02051 )
+           atom   85  H     Mean Z*:        0.09690
+      Ex  (        0.15089       -0.01721       -0.02010 )
+      Ey  (       -0.03054        0.10157       -0.09578 )
+      Ez  (       -0.03802       -0.07566        0.03824 )
+           atom   86  H     Mean Z*:        0.09690
+      Ex  (        0.15089       -0.01721       -0.02010 )
+      Ey  (       -0.03054        0.10157       -0.09578 )
+      Ez  (       -0.03802       -0.07566        0.03824 )
+           atom   87  H     Mean Z*:        0.09690
+      Ex  (       -0.00119        0.03613       -0.03866 )
+      Ey  (        0.05739        0.14466        0.00966 )
+      Ez  (       -0.05962        0.01318        0.14724 )
+           atom   88  H     Mean Z*:        0.09690
+      Ex  (       -0.00119        0.03613       -0.03866 )
+      Ey  (        0.05739        0.14466        0.00966 )
+      Ez  (       -0.05962        0.01318        0.14724 )
+           atom   89  H     Mean Z*:        0.09689
+      Ex  (        0.09271       -0.08861        0.03096 )
+      Ey  (       -0.07560        0.06000        0.03631 )
+      Ez  (        0.04062        0.06164        0.13796 )
+           atom   90  H     Mean Z*:        0.09689
+      Ex  (        0.09271       -0.08861        0.03096 )
+      Ey  (       -0.07560        0.06000        0.03631 )
+      Ez  (        0.04062        0.06164        0.13796 )
+           atom   91  H     Mean Z*:        0.09643
+      Ex  (        0.09787        0.00205       -0.09732 )
+      Ey  (        0.01239        0.15434        0.02998 )
+      Ez  (       -0.08521        0.00562        0.03707 )
+           atom   92  H     Mean Z*:        0.09643
+      Ex  (        0.09787        0.00205       -0.09732 )
+      Ey  (        0.01239        0.15434        0.02998 )
+      Ez  (       -0.08521        0.00562        0.03707 )
+           atom   93  H     Mean Z*:        0.09642
+      Ex  (       -0.00167       -0.02306        0.04892 )
+      Ey  (       -0.03786        0.15959        0.01141 )
+      Ez  (        0.07317        0.00504        0.13135 )
+           atom   94  H     Mean Z*:        0.09642
+      Ex  (       -0.00167       -0.02306        0.04892 )
+      Ey  (       -0.03786        0.15959        0.01141 )
+      Ez  (        0.07317        0.00504        0.13135 )
+           atom   95  H     Mean Z*:        0.09643
+      Ex  (        0.14766       -0.02337       -0.00731 )
+      Ey  (       -0.04156       -0.01002       -0.03874 )
+      Ez  (       -0.01205       -0.06096        0.15166 )
+           atom   96  H     Mean Z*:        0.09643
+      Ex  (        0.14766       -0.02337       -0.00731 )
+      Ey  (       -0.04156       -0.01002       -0.03874 )
+      Ez  (       -0.01205       -0.06096        0.15166 )
+           atom   97  H     Mean Z*:        0.09403
+      Ex  (        0.14270        0.02801        0.00962 )
+      Ey  (        0.04711       -0.01401       -0.03473 )
+      Ez  (        0.01289       -0.05545        0.15341 )
+           atom   98  H     Mean Z*:        0.09403
+      Ex  (        0.14270        0.02801        0.00962 )
+      Ey  (        0.04711       -0.01401       -0.03473 )
+      Ez  (        0.01289       -0.05545        0.15341 )
+           atom   99  H     Mean Z*:        0.09403
+      Ex  (        0.13527        0.03137       -0.07438 )
+      Ey  (        0.02213        0.11604        0.06669 )
+      Ez  (       -0.04806        0.07185        0.03080 )
+           atom  100  H     Mean Z*:        0.09403
+      Ex  (        0.13527        0.03137       -0.07438 )
+      Ey  (        0.02213        0.11604        0.06669 )
+      Ez  (       -0.04806        0.07185        0.03080 )
+           atom  101  H     Mean Z*:        0.09404
+      Ex  (        0.05264        0.00615        0.09892 )
+      Ey  (       -0.01580        0.16447        0.00762 )
+      Ez  (        0.08621       -0.00510        0.06501 )
+           atom  102  H     Mean Z*:        0.09404
+      Ex  (        0.05264        0.00615        0.09892 )
+      Ey  (       -0.01580        0.16447        0.00762 )
+      Ez  (        0.08621       -0.00510        0.06501 )
+           atom  103  H     Mean Z*:        0.09453
+      Ex  (        0.10233        0.08516       -0.03558 )
+      Ey  (        0.07250        0.05966        0.04401 )
+      Ez  (       -0.03567        0.07069        0.12161 )
+           atom  104  H     Mean Z*:        0.09453
+      Ex  (        0.10233        0.08516       -0.03558 )
+      Ey  (        0.07250        0.05966        0.04401 )
+      Ez  (       -0.03567        0.07069        0.12161 )
+           atom  105  H     Mean Z*:        0.09454
+      Ex  (        0.13240       -0.02664        0.07883 )
+      Ey  (       -0.02248        0.12008        0.06211 )
+      Ez  (        0.04969        0.06423        0.03114 )
+           atom  106  H     Mean Z*:        0.09454
+      Ex  (        0.13240       -0.02664        0.07883 )
+      Ey  (       -0.02248        0.12008        0.06211 )
+      Ez  (        0.04969        0.06423        0.03114 )
+           atom  107  H     Mean Z*:        0.09453
+      Ex  (        0.13510        0.03836        0.04489 )
+      Ey  (        0.06462        0.07611       -0.08167 )
+      Ez  (        0.04934       -0.06893        0.07237 )
+           atom  108  H     Mean Z*:        0.09453
+      Ex  (        0.13510        0.03836        0.04489 )
+      Ey  (        0.06462        0.07611       -0.08167 )
+      Ez  (        0.04934       -0.06893        0.07237 )
+
+          Effective charges Sum: Mean:       -0.32947
+             -0.13242        0.23321        0.18495
+              0.25014       -0.39280        0.08361
+              0.16125        0.12330       -0.46318
+
+          Effective charges (d Force / dE) in cartesian axis with asr applied: 
+           atom    1  Zr    Mean Z*:        4.97758
+      E*x (        4.70887        0.06204       -0.07456 )
+      E*y (        0.17970        4.87806       -0.60572 )
+      E*z (        0.26963       -0.62621        5.34580 )
+           atom    2  Zr    Mean Z*:        4.97758
+      E*x (        4.70887        0.06204       -0.07456 )
+      E*y (        0.17970        4.87806       -0.60572 )
+      E*z (        0.26963       -0.62621        5.34580 )
+           atom    3  Zr    Mean Z*:        4.97760
+      E*x (        4.98367        0.16501       -0.52522 )
+      E*y (       -0.19871        4.64726        0.37697 )
+      E*z (       -0.50685        0.36781        5.30186 )
+           atom    4  Zr    Mean Z*:        4.97760
+      E*x (        4.98367        0.16501       -0.52522 )
+      E*y (       -0.19871        4.64726        0.37697 )
+      E*z (       -0.50685        0.36781        5.30186 )
+           atom    5  Zr    Mean Z*:        4.97757
+      E*x (        4.94096       -0.52076        0.23465 )
+      E*y (       -0.42113        5.50370        0.24297 )
+      E*z (        0.07655       -0.06970        4.48805 )
+           atom    6  Zr    Mean Z*:        4.97757
+      E*x (        4.94096       -0.52076        0.23465 )
+      E*y (       -0.42113        5.50370        0.24297 )
+      E*z (        0.07655       -0.06970        4.48805 )
+           atom    7  O     Mean Z*:       -1.56963
+      E*x (       -1.79877       -1.01864        0.84686 )
+      E*y (       -1.09936       -1.77014        0.50480 )
+      E*z (        0.70889        0.38076       -1.14000 )
+           atom    8  O     Mean Z*:       -1.56963
+      E*x (       -1.79877       -1.01864        0.84686 )
+      E*y (       -1.09936       -1.77014        0.50480 )
+      E*z (        0.70889        0.38076       -1.14000 )
+           atom    9  O     Mean Z*:       -1.56968
+      E*x (       -0.79920       -0.22118       -0.50130 )
+      E*y (       -0.06458       -1.93512       -1.13500 )
+      E*z (       -0.40729       -1.22200       -1.97471 )
+           atom   10  O     Mean Z*:       -1.56968
+      E*x (       -0.79920       -0.22118       -0.50130 )
+      E*y (       -0.06458       -1.93512       -1.13500 )
+      E*z (       -0.40729       -1.22200       -1.97471 )
+           atom   11  O     Mean Z*:       -1.56965
+      E*x (       -2.66105        0.59688       -0.87316 )
+      E*y (        0.45752       -0.82672        0.41586 )
+      E*z (       -0.74057        0.47845       -1.22117 )
+           atom   12  O     Mean Z*:       -1.56965
+      E*x (       -2.66105        0.59688       -0.87316 )
+      E*y (        0.45752       -0.82672        0.41586 )
+      E*z (       -0.74057        0.47845       -1.22117 )
+           atom   13  O     Mean Z*:       -1.61948
+      E*x (       -2.76410       -0.63186        0.98400 )
+      E*y (       -0.53029       -0.76484        0.43786 )
+      E*z (        0.75988        0.35059       -1.32951 )
+           atom   14  O     Mean Z*:       -1.61948
+      E*x (       -2.76410       -0.63186        0.98400 )
+      E*y (       -0.53029       -0.76484        0.43786 )
+      E*z (        0.75988        0.35059       -1.32951 )
+           atom   15  O     Mean Z*:       -1.61948
+      E*x (       -0.88751       -0.46240       -0.04577 )
+      E*y (       -0.28285       -2.90745       -1.01455 )
+      E*z (        0.11087       -0.90779       -1.06347 )
+           atom   16  O     Mean Z*:       -1.61948
+      E*x (       -0.88751       -0.46240       -0.04577 )
+      E*y (       -0.28285       -2.90745       -1.01455 )
+      E*z (        0.11087       -0.90779       -1.06347 )
+           atom   17  O     Mean Z*:       -1.61948
+      E*x (       -1.70002        0.45183       -1.31917 )
+      E*y (        0.24572       -1.02746        0.23027 )
+      E*z (       -1.35643        0.38620       -2.13094 )
+           atom   18  O     Mean Z*:       -1.61948
+      E*x (       -1.70002        0.45183       -1.31917 )
+      E*y (        0.24572       -1.02746        0.23027 )
+      E*z (       -1.35643        0.38620       -2.13094 )
+           atom   19  O     Mean Z*:       -1.65735
+      E*x (       -1.74723       -0.38197        1.38130 )
+      E*y (       -0.31223       -1.00280        0.19535 )
+      E*z (        1.50696        0.32985       -2.22201 )
+           atom   20  O     Mean Z*:       -1.65735
+      E*x (       -1.74723       -0.38197        1.38130 )
+      E*y (       -0.31223       -1.00280        0.19535 )
+      E*z (        1.50696        0.32985       -2.22201 )
+           atom   21  O     Mean Z*:       -1.65738
+      E*x (       -0.84467        0.84000        0.18711 )
+      E*y (        0.69858       -2.83841       -1.01646 )
+      E*z (        0.08085       -0.93017       -1.28906 )
+           atom   22  O     Mean Z*:       -1.65738
+      E*x (       -0.84467        0.84000        0.18711 )
+      E*y (        0.69858       -2.83841       -1.01646 )
+      E*z (        0.08085       -0.93017       -1.28906 )
+           atom   23  O     Mean Z*:       -1.65733
+      E*x (       -1.46023        0.63301       -0.70822 )
+      E*y (        0.77910       -1.42682        1.21670 )
+      E*z (       -0.83148        1.16985       -2.08495 )
+           atom   24  O     Mean Z*:       -1.65733
+      E*x (       -1.46023        0.63301       -0.70822 )
+      E*y (        0.77910       -1.42682        1.21670 )
+      E*z (       -0.83148        1.16985       -2.08495 )
+           atom   25  O     Mean Z*:       -1.61874
+      E*x (       -1.45890       -0.44684        0.79966 )
+      E*y (       -0.50034       -1.25339        1.05722 )
+      E*z (        0.96890        1.11823       -2.14394 )
+           atom   26  O     Mean Z*:       -1.61874
+      E*x (       -1.45890       -0.44684        0.79966 )
+      E*y (       -0.50034       -1.25339        1.05722 )
+      E*z (        0.96890        1.11823       -2.14394 )
+           atom   27  O     Mean Z*:       -1.61872
+      E*x (       -0.83273        0.41896        0.70223 )
+      E*y (        0.27593       -2.01518       -1.15125 )
+      E*z (        0.59866       -1.21484       -2.00824 )
+           atom   28  O     Mean Z*:       -1.61872
+      E*x (       -0.83273        0.41896        0.70223 )
+      E*y (        0.27593       -2.01518       -1.15125 )
+      E*z (        0.59866       -1.21484       -2.00824 )
+           atom   29  O     Mean Z*:       -1.61870
+      E*x (       -1.69511        1.12029       -0.77467 )
+      E*y (        1.26438       -1.86731        0.61138 )
+      E*z (       -0.76715        0.49133       -1.29368 )
+           atom   30  O     Mean Z*:       -1.61870
+      E*x (       -1.69511        1.12029       -0.77467 )
+      E*y (        1.26438       -1.86731        0.61138 )
+      E*z (       -0.76715        0.49133       -1.29368 )
+           atom   31  O     Mean Z*:       -2.05159
+      E*x (       -1.56171       -0.28734       -0.24317 )
+      E*y (       -0.18330       -2.15375        0.54471 )
+      E*z (       -0.14130        0.58229       -2.43932 )
+           atom   32  O     Mean Z*:       -2.05159
+      E*x (       -1.56171       -0.28734       -0.24317 )
+      E*y (       -0.18330       -2.15375        0.54471 )
+      E*z (       -0.14130        0.58229       -2.43932 )
+           atom   33  O     Mean Z*:       -2.05159
+      E*x (       -2.16808        0.13401        0.39456 )
+      E*y (        0.00405       -1.46004       -0.43273 )
+      E*z (        0.39259       -0.35708       -2.52667 )
+           atom   34  O     Mean Z*:       -2.05159
+      E*x (       -2.16808        0.13401        0.39456 )
+      E*y (        0.00405       -1.46004       -0.43273 )
+      E*z (        0.39259       -0.35708       -2.52667 )
+           atom   35  O     Mean Z*:       -2.05160
+      E*x (       -2.21709        0.39941        0.04364 )
+      E*y (        0.44309       -2.60786       -0.02359 )
+      E*z (       -0.08107       -0.09544       -1.32985 )
+           atom   36  O     Mean Z*:       -2.05160
+      E*x (       -2.21709        0.39941        0.04364 )
+      E*y (        0.44309       -2.60786       -0.02359 )
+      E*z (       -0.08107       -0.09544       -1.32985 )
+           atom   37  C     Mean Z*:        2.09619
+      E*x (        1.58616        0.21072       -1.54747 )
+      E*y (        0.23951        2.11491        0.73072 )
+      E*z (       -1.60648        0.70488        2.58749 )
+           atom   38  C     Mean Z*:        2.09619
+      E*x (        1.58616        0.21072       -1.54747 )
+      E*y (        0.23951        2.11491        0.73072 )
+      E*z (       -1.60648        0.70488        2.58749 )
+           atom   39  C     Mean Z*:        2.09617
+      E*x (        1.47660       -1.38492        0.69378 )
+      E*y (       -1.33831        3.08541        0.41836 )
+      E*z (        0.73850        0.44682        1.72652 )
+           atom   40  C     Mean Z*:        2.09617
+      E*x (        1.47660       -1.38492        0.69378 )
+      E*y (       -1.33831        3.08541        0.41836 )
+      E*z (        0.73850        0.44682        1.72652 )
+           atom   41  C     Mean Z*:        2.09619
+      E*x (        2.18395       -0.11256       -0.04900 )
+      E*y (       -0.16984        1.42340       -1.71675 )
+      E*z (       -0.05995       -1.67706        2.68121 )
+           atom   42  C     Mean Z*:        2.09619
+      E*x (        2.18395       -0.11256       -0.04900 )
+      E*y (       -0.16984        1.42340       -1.71675 )
+      E*z (       -0.05995       -1.67706        2.68121 )
+           atom   43  C     Mean Z*:        2.02746
+      E*x (        1.50680        1.04200       -0.89772 )
+      E*y (        0.89973        3.19293        0.30458 )
+      E*z (       -0.95740        0.44132        1.38265 )
+           atom   44  C     Mean Z*:        2.02746
+      E*x (        1.50680        1.04200       -0.89772 )
+      E*y (        0.89973        3.19293        0.30458 )
+      E*z (       -0.95740        0.44132        1.38265 )
+           atom   45  C     Mean Z*:        2.02745
+      E*x (        1.25930       -0.48362        1.41105 )
+      E*y (       -0.38135        2.04478        0.68846 )
+      E*z (        1.23587        0.65162        2.77827 )
+           atom   46  C     Mean Z*:        2.02745
+      E*x (        1.25930       -0.48362        1.41105 )
+      E*y (       -0.38135        2.04478        0.68846 )
+      E*z (        1.23587        0.65162        2.77827 )
+           atom   47  C     Mean Z*:        2.02744
+      E*x (        3.62430       -0.22697       -0.17777 )
+      E*y (       -0.09403        0.74552       -0.94009 )
+      E*z (       -0.07270       -0.82269        1.71249 )
+           atom   48  C     Mean Z*:        2.02744
+      E*x (        3.62430       -0.22697       -0.17777 )
+      E*y (       -0.09403        0.74552       -0.94009 )
+      E*z (       -0.07270       -0.82269        1.71249 )
+           atom   49  C     Mean Z*:       -0.35422
+      E*x (       -0.20612       -0.42790        0.04077 )
+      E*y (       -0.40977       -0.82880        0.02462 )
+      E*z (        0.03570        0.01401       -0.02773 )
+           atom   50  C     Mean Z*:       -0.35422
+      E*x (       -0.20612       -0.42790        0.04077 )
+      E*y (       -0.40977       -0.82880        0.02462 )
+      E*z (        0.03570        0.01401       -0.02773 )
+           atom   51  C     Mean Z*:       -0.35421
+      E*x (       -0.20533       -0.09844       -0.40442 )
+      E*y (       -0.09951       -0.09967       -0.25721 )
+      E*z (       -0.38619       -0.24562       -0.75763 )
+           atom   52  C     Mean Z*:       -0.35421
+      E*x (       -0.20533       -0.09844       -0.40442 )
+      E*y (       -0.09951       -0.09967       -0.25721 )
+      E*z (       -0.38619       -0.24562       -0.75763 )
+           atom   53  C     Mean Z*:       -0.35421
+      E*x (       -1.03845        0.05126        0.02357 )
+      E*y (        0.03436       -0.00957        0.02925 )
+      E*z (        0.01010        0.02868       -0.01462 )
+           atom   54  C     Mean Z*:       -0.35421
+      E*x (       -1.03845        0.05126        0.02357 )
+      E*y (        0.03436       -0.00957        0.02925 )
+      E*z (        0.01010        0.02868       -0.01462 )
+           atom   55  C     Mean Z*:       -0.38220
+      E*x (       -0.31774        0.16444        0.46338 )
+      E*y (        0.15060       -0.10124       -0.25785 )
+      E*z (        0.48657       -0.24537       -0.72761 )
+           atom   56  C     Mean Z*:       -0.38220
+      E*x (       -0.31774        0.16444        0.46338 )
+      E*y (        0.15060       -0.10124       -0.25785 )
+      E*z (        0.48657       -0.24537       -0.72761 )
+           atom   57  C     Mean Z*:       -0.38218
+      E*x (       -0.28600        0.49202        0.00097 )
+      E*y (        0.47450       -0.84776        0.00696 )
+      E*z (       -0.01978       -0.00520       -0.01279 )
+           atom   58  C     Mean Z*:       -0.38218
+      E*x (       -0.28600        0.49202        0.00097 )
+      E*y (        0.47450       -0.84776        0.00696 )
+      E*z (       -0.01978       -0.00520       -0.01279 )
+           atom   59  C     Mean Z*:       -0.38221
+      E*x (       -0.01841       -0.01026       -0.00781 )
+      E*y (        0.01506       -0.36630        0.53307 )
+      E*z (       -0.00184        0.51859       -0.76190 )
+           atom   60  C     Mean Z*:       -0.38221
+      E*x (       -0.01841       -0.01026       -0.00781 )
+      E*y (        0.01506       -0.36630        0.53307 )
+      E*z (       -0.00184        0.51859       -0.76190 )
+           atom   61  C     Mean Z*:       -0.06110
+      E*x (       -0.02115        0.09251       -0.04192 )
+      E*y (       -0.07166       -0.11254        0.08358 )
+      E*z (       -0.10702       -0.07901       -0.04962 )
+           atom   62  C     Mean Z*:       -0.06110
+      E*x (       -0.02115        0.09251       -0.04192 )
+      E*y (       -0.07166       -0.11254        0.08358 )
+      E*z (       -0.10702       -0.07901       -0.04962 )
+           atom   63  C     Mean Z*:       -0.06109
+      E*x (       -0.10327       -0.08014       -0.03889 )
+      E*y (        0.03434        0.02740        0.13578 )
+      E*z (        0.04046       -0.05975       -0.10741 )
+           atom   64  C     Mean Z*:       -0.06109
+      E*x (       -0.10327       -0.08014       -0.03889 )
+      E*y (        0.03434        0.02740        0.13578 )
+      E*z (        0.04046       -0.05975       -0.10741 )
+           atom   65  C     Mean Z*:       -0.06110
+      E*x (       -0.08326        0.03857       -0.05344 )
+      E*y (       -0.07340       -0.09032       -0.04318 )
+      E*z (        0.15803       -0.06300       -0.00973 )
+           atom   66  C     Mean Z*:       -0.06110
+      E*x (       -0.08326        0.03857       -0.05344 )
+      E*y (       -0.07340       -0.09032       -0.04318 )
+      E*z (        0.15803       -0.06300       -0.00973 )
+           atom   67  C     Mean Z*:       -0.06466
+      E*x (       -0.08487       -0.05138        0.04252 )
+      E*y (        0.06120       -0.09145       -0.04332 )
+      E*z (       -0.16421       -0.04214       -0.01767 )
+           atom   68  C     Mean Z*:       -0.06466
+      E*x (       -0.08487       -0.05138        0.04252 )
+      E*y (        0.06120       -0.09145       -0.04332 )
+      E*z (       -0.16421       -0.04214       -0.01767 )
+           atom   69  C     Mean Z*:       -0.06464
+      E*x (       -0.10567       -0.12457       -0.07867 )
+      E*y (        0.03495       -0.03049       -0.02840 )
+      E*z (        0.00241        0.12457       -0.05775 )
+           atom   70  C     Mean Z*:       -0.06464
+      E*x (       -0.10567       -0.12457       -0.07867 )
+      E*y (        0.03495       -0.03049       -0.02840 )
+      E*z (        0.00241        0.12457       -0.05775 )
+           atom   71  C     Mean Z*:       -0.06465
+      E*x (       -0.08586        0.00286        0.06422 )
+      E*y (       -0.12525       -0.04548       -0.13986 )
+      E*z (       -0.01113        0.04271       -0.06261 )
+           atom   72  C     Mean Z*:       -0.06465
+      E*x (       -0.08586        0.00286        0.06422 )
+      E*y (       -0.12525       -0.04548       -0.13986 )
+      E*z (       -0.01113        0.04271       -0.06261 )
+           atom   73  C     Mean Z*:       -0.05959
+      E*x (       -0.05592       -0.01551       -0.07229 )
+      E*y (        0.13294       -0.04335       -0.13183 )
+      E*z (       -0.00784        0.05551       -0.07949 )
+           atom   74  C     Mean Z*:       -0.05959
+      E*x (       -0.05592       -0.01551       -0.07229 )
+      E*y (        0.13294       -0.04335       -0.13183 )
+      E*z (       -0.00784        0.05551       -0.07949 )
+           atom   75  C     Mean Z*:       -0.05961
+      E*x (       -0.10522        0.06193        0.06957 )
+      E*y (       -0.04686       -0.04975       -0.02778 )
+      E*z (       -0.03848        0.16656       -0.02387 )
+           atom   76  C     Mean Z*:       -0.05961
+      E*x (       -0.10522        0.06193        0.06957 )
+      E*y (       -0.04686       -0.04975       -0.02778 )
+      E*z (       -0.03848        0.16656       -0.02387 )
+           atom   77  C     Mean Z*:       -0.05960
+      E*x (        0.00283       -0.10975        0.14422 )
+      E*y (        0.02757       -0.09230       -0.03655 )
+      E*z (       -0.05921       -0.00442       -0.08933 )
+           atom   78  C     Mean Z*:       -0.05960
+      E*x (        0.00283       -0.10975        0.14422 )
+      E*y (        0.02757       -0.09230       -0.03655 )
+      E*z (       -0.05921       -0.00442       -0.08933 )
+           atom   79  C     Mean Z*:       -0.05674
+      E*x (        0.00494        0.09192       -0.15444 )
+      E*y (       -0.05224       -0.10508       -0.00430 )
+      E*z (        0.04607       -0.03308       -0.07008 )
+           atom   80  C     Mean Z*:       -0.05674
+      E*x (        0.00494        0.09192       -0.15444 )
+      E*y (       -0.05224       -0.10508       -0.00430 )
+      E*z (        0.04607       -0.03308       -0.07008 )
+           atom   81  C     Mean Z*:       -0.05676
+      E*x (       -0.10237        0.08462        0.02976 )
+      E*y (       -0.05883        0.02217        0.13924 )
+      E*z (       -0.04026       -0.05132       -0.09009 )
+           atom   82  C     Mean Z*:       -0.05676
+      E*x (       -0.10237        0.08462        0.02976 )
+      E*y (       -0.05883        0.02217        0.13924 )
+      E*z (       -0.04026       -0.05132       -0.09009 )
+           atom   83  C     Mean Z*:       -0.05676
+      E*x (       -0.06378       -0.07785        0.01037 )
+      E*y (        0.03463       -0.09028        0.07455 )
+      E*z (        0.12440       -0.11560       -0.01622 )
+           atom   84  C     Mean Z*:       -0.05676
+      E*x (       -0.06378       -0.07785        0.01037 )
+      E*y (        0.03463       -0.09028        0.07455 )
+      E*z (        0.12440       -0.11560       -0.01622 )
+           atom   85  H     Mean Z*:        0.09995
+      E*x (        0.15212       -0.01953       -0.02159 )
+      E*y (       -0.03270        0.10521       -0.09692 )
+      E*z (       -0.03973       -0.07644        0.04253 )
+           atom   86  H     Mean Z*:        0.09995
+      E*x (        0.15212       -0.01953       -0.02159 )
+      E*y (       -0.03270        0.10521       -0.09692 )
+      E*z (       -0.03973       -0.07644        0.04253 )
+           atom   87  H     Mean Z*:        0.09995
+      E*x (        0.00003        0.03381       -0.04016 )
+      E*y (        0.05523        0.14830        0.00852 )
+      E*z (       -0.06134        0.01240        0.15153 )
+           atom   88  H     Mean Z*:        0.09995
+      E*x (        0.00003        0.03381       -0.04016 )
+      E*y (        0.05523        0.14830        0.00852 )
+      E*z (       -0.06134        0.01240        0.15153 )
+           atom   89  H     Mean Z*:        0.09994
+      E*x (        0.09394       -0.09093        0.02947 )
+      E*y (       -0.07776        0.06364        0.03517 )
+      E*z (        0.03891        0.06087        0.14225 )
+           atom   90  H     Mean Z*:        0.09994
+      E*x (        0.09394       -0.09093        0.02947 )
+      E*y (       -0.07776        0.06364        0.03517 )
+      E*z (        0.03891        0.06087        0.14225 )
+           atom   91  H     Mean Z*:        0.09948
+      E*x (        0.09910       -0.00026       -0.09881 )
+      E*y (        0.01023        0.15797        0.02884 )
+      E*z (       -0.08692        0.00485        0.04136 )
+           atom   92  H     Mean Z*:        0.09948
+      E*x (        0.09910       -0.00026       -0.09881 )
+      E*y (        0.01023        0.15797        0.02884 )
+      E*z (       -0.08692        0.00485        0.04136 )
+           atom   93  H     Mean Z*:        0.09948
+      E*x (       -0.00044       -0.02538        0.04743 )
+      E*y (       -0.04002        0.16323        0.01027 )
+      E*z (        0.07146        0.00426        0.13564 )
+           atom   94  H     Mean Z*:        0.09948
+      E*x (       -0.00044       -0.02538        0.04743 )
+      E*y (       -0.04002        0.16323        0.01027 )
+      E*z (        0.07146        0.00426        0.13564 )
+           atom   95  H     Mean Z*:        0.09948
+      E*x (        0.14889       -0.02568       -0.00881 )
+      E*y (       -0.04372       -0.00639       -0.03988 )
+      E*z (       -0.01376       -0.06174        0.15595 )
+           atom   96  H     Mean Z*:        0.09948
+      E*x (        0.14889       -0.02568       -0.00881 )
+      E*y (       -0.04372       -0.00639       -0.03988 )
+      E*z (       -0.01376       -0.06174        0.15595 )
+           atom   97  H     Mean Z*:        0.09708
+      E*x (        0.14393        0.02570        0.00813 )
+      E*y (        0.04495       -0.01037       -0.03587 )
+      E*z (        0.01118       -0.05623        0.15770 )
+           atom   98  H     Mean Z*:        0.09708
+      E*x (        0.14393        0.02570        0.00813 )
+      E*y (        0.04495       -0.01037       -0.03587 )
+      E*z (        0.01118       -0.05623        0.15770 )
+           atom   99  H     Mean Z*:        0.09709
+      E*x (        0.13650        0.02905       -0.07587 )
+      E*y (        0.01997        0.11967        0.06555 )
+      E*z (       -0.04977        0.07108        0.03509 )
+           atom  100  H     Mean Z*:        0.09709
+      E*x (        0.13650        0.02905       -0.07587 )
+      E*y (        0.01997        0.11967        0.06555 )
+      E*z (       -0.04977        0.07108        0.03509 )
+           atom  101  H     Mean Z*:        0.09709
+      E*x (        0.05387        0.00383        0.09743 )
+      E*y (       -0.01796        0.16811        0.00647 )
+      E*z (        0.08450       -0.00587        0.06930 )
+           atom  102  H     Mean Z*:        0.09709
+      E*x (        0.05387        0.00383        0.09743 )
+      E*y (       -0.01796        0.16811        0.00647 )
+      E*z (        0.08450       -0.00587        0.06930 )
+           atom  103  H     Mean Z*:        0.09758
+      E*x (        0.10356        0.08284       -0.03707 )
+      E*y (        0.07034        0.06329        0.04287 )
+      E*z (       -0.03738        0.06991        0.12590 )
+           atom  104  H     Mean Z*:        0.09758
+      E*x (        0.10356        0.08284       -0.03707 )
+      E*y (        0.07034        0.06329        0.04287 )
+      E*z (       -0.03738        0.06991        0.12590 )
+           atom  105  H     Mean Z*:        0.09759
+      E*x (        0.13362       -0.02896        0.07734 )
+      E*y (       -0.02464        0.12372        0.06097 )
+      E*z (        0.04797        0.06346        0.03542 )
+           atom  106  H     Mean Z*:        0.09759
+      E*x (        0.13362       -0.02896        0.07734 )
+      E*y (       -0.02464        0.12372        0.06097 )
+      E*z (        0.04797        0.06346        0.03542 )
+           atom  107  H     Mean Z*:        0.09758
+      E*x (        0.13633        0.03604        0.04340 )
+      E*y (        0.06246        0.07975       -0.08281 )
+      E*z (        0.04762       -0.06971        0.07666 )
+           atom  108  H     Mean Z*:        0.09758
+      E*x (        0.13633        0.03604        0.04340 )
+      E*y (        0.06246        0.07975       -0.08281 )
+      E*z (        0.04762       -0.06971        0.07666 )
+
+     PHONON       :     11h29m CPU     11h33m WALL
+
+     INITIALIZATION: 
+     phq_setup    :      0.53s CPU      1.04s WALL (       1 calls)
+     phq_init     :   2432.12s CPU   2460.28s WALL (       1 calls)
+
+     phq_init     :   2432.12s CPU   2460.28s WALL (       1 calls)
+     set_drhoc    :      0.03s CPU      0.03s WALL (       1 calls)
+     init_vloc    :      0.01s CPU      0.01s WALL (       1 calls)
+     init_us_1    :      0.06s CPU      0.14s WALL (       1 calls)
+     init_us_2    :      0.50s CPU      0.55s WALL (      17 calls)
+     newd         :      0.76s CPU      1.46s WALL (       1 calls)
+     dvanqq       :   1103.33s CPU   1108.12s WALL (       1 calls)
+     drho         :   1320.81s CPU   1344.07s WALL (       1 calls)
+     drhous       :   1013.76s CPU   1027.15s WALL (       1 calls)
+     nldyntot     :      4.55s CPU      4.62s WALL (       1 calls)
+     cmpt_qdipol  :      0.00s CPU      0.00s WALL (       1 calls)
+
+     DIELECTRIC CONSTANT AND EFFECTIVE CHARGES:
+     solve_e      :  14250.57s CPU  14340.80s WALL (       1 calls)
+     dielec       :      0.10s CPU      0.15s WALL (       1 calls)
+     zstar_eu     :  24649.50s CPU  24803.17s WALL (       1 calls)
+     newdq        :     18.64s CPU     18.93s WALL (       9 calls)
+     adddvscf     :     16.47s CPU     16.51s WALL (      24 calls)
+
+     dvqpsi_us    :   2576.37s CPU   2582.30s WALL (     324 calls)
+                                        0.00s GPU  (     324 calls)
+     dvqpsi_us_on :   2305.90s CPU   2306.49s WALL (     324 calls)
+
+     add_vuspsi   :   2298.07s CPU   2298.81s WALL (    2035 calls)
+     addusdbec    :    690.88s CPU    694.75s WALL (     354 calls)
+
+
+      General routines
+     calbec       :  20751.40s CPU  20879.01s WALL (   12240 calls)
+     fft          :    105.59s CPU    129.61s WALL (    9857 calls)
+     ffts         :     54.72s CPU     54.88s WALL (    1030 calls)
+     fftw         :   1212.10s CPU   1239.47s WALL (  816724 calls)
+     davcio       :      0.59s CPU     20.72s WALL (    3741 calls)
+     write_rec    :      0.75s CPU     14.86s WALL (       9 calls)
+
+      Additional routines
+     ch_psi       :  13774.09s CPU  13837.22s WALL (    2035 calls)
+     last         :   5920.40s CPU   5947.49s WALL (    2035 calls)
+     Hesh         :      4.11s CPU      4.27s WALL (    2035 calls)
+     ch_psi_all_k :   5916.24s CPU   5943.19s WALL (    2035 calls)
+                                        0.00s GPU  (    2035 calls)
+     ch_psi_calbe :   2380.13s CPU   2396.26s WALL (    2035 calls)
+                                        0.00s GPU  (    2035 calls)
+     h_psi_bgrp   :   5533.78s CPU   5568.66s WALL (    2035 calls)
+     h_psi        :   5533.77s CPU   5568.66s WALL (    2035 calls)
+     h_psi:pot    :   5524.47s CPU   5559.34s WALL (    2035 calls)
+     h_psi:calbec :   2372.25s CPU   2388.25s WALL (    2035 calls)
+     s_psi_bgrp   :   4673.78s CPU   4675.36s WALL (    4103 calls)
+     s_psi        :   4661.03s CPU   4662.48s WALL (    4103 calls)
+
+
+     PHONON       :     11h29m CPU     11h33m WALL
+
+
+   This run was terminated on:  22:50:57  16Jun2025            
+
+=------------------------------------------------------------------------------=
+   JOB DONE.
+=------------------------------------------------------------------------------=

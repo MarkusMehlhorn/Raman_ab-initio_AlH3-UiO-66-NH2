@@ -1,0 +1,53 @@
+
+#======================================================================
+# CRYSTAL DATA
+#----------------------------------------------------------------------
+data_VESTA_phase_1
+
+_chemical_name_common                  'C48H24O30Zr6'
+_cell_length_a                         14.565630
+_cell_length_b                         14.565630
+_cell_length_c                         14.565630
+_cell_angle_alpha                      61.671516
+_cell_angle_beta                       61.671516
+_cell_angle_gamma                      61.671516
+_cell_volume                           2266.996475
+_space_group_name_H-M_alt              'R -3'
+_space_group_IT_number                 148
+
+loop_
+_space_group_symop_operation_xyz
+   'x, y, z'
+   '-x, -y, -z'
+   'z, x, y'
+   '-z, -x, -y'
+   'y, z, x'
+   '-y, -z, -x'
+
+loop_
+   _atom_site_label
+   _atom_site_occupancy
+   _atom_site_fract_x
+   _atom_site_fract_y
+   _atom_site_fract_z
+   _atom_site_adp_type
+   _atom_site_B_iso_or_equiv
+   _atom_site_type_symbol
+   C1         1.0     0.497112     0.196990    -0.190815    Biso  1.000000 C
+   C2         1.0     1.204270     0.499925    -0.511803    Biso  1.000000 C
+   C3         1.0     1.901619     0.499870     0.505001    Biso  1.000000 C
+   C4         1.0     1.501633     0.904461     0.091990    Biso  1.000000 C
+   C5         1.0     1.962621     0.409821     0.572210    Biso  1.000000 C
+   C6         1.0     0.567197     0.060338    -0.590129    Biso  1.000000 C
+   C7         1.0     0.412862    -0.042274     0.051103    Biso  1.000000 C
+   C8         1.0     1.040246     1.588753    -0.052585    Biso  1.000000 C
+   H9         1.0     0.923612     0.092103    -0.654316    Biso  1.000000 H
+   H10        1.0     0.905295     1.072845     0.657139    Biso  1.000000 H
+   H11        1.0     1.340315     0.627934     0.932093    Biso  1.000000 H
+   H12        1.0     0.340189     0.618447    -0.891213    Biso  1.000000 H
+   O13        1.0     1.761503     0.419593     0.584737    Biso  1.000000 O
+   O14        1.0     0.554060     0.254731    -0.582252    Biso  1.000000 O
+   O15        1.0     0.422295     0.766383    -0.766191    Biso  1.000000 O
+   O16        1.0     1.226964     0.583333     0.759048    Biso  1.000000 O
+   O17        1.0     1.544645     0.336212     0.547651    Biso  1.000000 O
+   Zr18       1.0     1.618979     0.373009     0.622188    Biso  1.000000 Zr

@@ -1,0 +1,9 @@
+
+# xtb on alH3@sbu
+
+! GFN2-xTB TightSCF TightOpt
+
+* xyzfile 0 1 start.xyz
+
+
+

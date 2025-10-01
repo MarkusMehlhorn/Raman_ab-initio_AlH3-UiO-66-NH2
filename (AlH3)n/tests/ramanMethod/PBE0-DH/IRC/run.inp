@@ -1,0 +1,27 @@
+# Geometry optimization for (AlH3)n cluster
+
+%pal nprocs 24  end
+
+%irc
+	TolRMSG 8.e-6
+	TolMaxG 3.e-5
+	Scale_Displ_SD 0.01
+	InitHess read
+	Hess_Filename "run.hess"
+end
+! IRC
+! PBE0-DH 
+! def2-QZVPP def2-QZVPP/C 
+! RKS	# closed shell for AlH3
+
+
+! NoPop # population analysis not necessary	
+
+! DEFGRID3
+! ExtremeSCF
+
+
+! SmallPrint
+
+
+* xyzFile 0 1 start.xyz # only maingroup elements H and Al so there should be no net spin

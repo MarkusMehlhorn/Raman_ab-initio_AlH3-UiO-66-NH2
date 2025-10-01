@@ -1,0 +1,5 @@
+submit directory: /home/mehlhorn/MOF/UiO-66-deydrox/primCell/convergence/k-grid/3
+job ID: 61080
+node: mendelevium01
+number of CPUs: 256
+scratch directory: /local/scratch/mehlhorn/61080

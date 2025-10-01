@@ -1,0 +1,22 @@
+# Geometry optimization for UiO-66-dehydrox SBU
+
+%pal nprocs 256 end
+
+! PBE 	# functional used for the MOF calculations later (non-expensive)
+! RKS	# closed shell for SBU
+! D3  # better geometries at low cost
+! def2-SV(P) # Ahlrichs basis set triple zeta with core potentials and auxilarry basis set for coulomb integrals
+! gCP(DFT/SV(P)) # geometrical counter poise
+! Freq 	# Frequency analysis to check the stabiltity of the structures
+
+! NoPop # population analysis not necessary	
+
+! RI 		# speed up calculation 
+! DEFGRID2 # dense Grid
+! NormalSCF # tight SCF criteria as basis for Geom.-Opt.
+! SloppyOpt # tight convergence criteria for geometry optimizations
+
+! SmallPrint
+
+
+* xyzFile 0 1 start.xyz # no spin

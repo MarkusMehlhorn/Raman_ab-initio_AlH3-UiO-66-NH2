@@ -1,0 +1,5 @@
+/bin/bash: warning: setlocale: LC_ALL: cannot change locale (de_DE.utf8)
+cp: preserving permissions for '/local/scratch/clemens/61380/JOBLOG': Operation not supported
+cp: preserving permissions for '/local/scratch/clemens/61380/qe-pw.job': Operation not supported
+cp: preserving permissions for '/local/scratch/clemens/61380/si.pp.in': Operation not supported
+cp: preserving permissions for '/local/scratch/clemens/61380/si.scf.in': Operation not supported

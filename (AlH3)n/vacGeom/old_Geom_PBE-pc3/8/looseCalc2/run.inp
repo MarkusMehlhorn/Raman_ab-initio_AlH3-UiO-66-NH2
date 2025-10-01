@@ -1,0 +1,22 @@
+# Pre Geometry optimization for (AlH3)n cluster
+# ... continued
+
+! PBE 	# functional used for the MOF calculations later (non-expensive)
+! RKS	# closed shell for AlH3
+! D3BJ  # better geometries at low cost
+! pc-2 	# smaller basiset for preoptimization
+! Freq 	# Frequency analysis to check the stabiltity of the structures
+
+
+! NoPop # population analysis not necessary	
+
+! RI 		# speed up calculation 
+! AutoAux # no auxiliary basis set for pc implemented
+! DEFGRID2 # normal integration grid in space
+! NormalSCF # 
+! NormalOpt # normal convergence criteria for pre geometry optimizations
+
+! SmallPrint
+
+
+* xyzFile 0 1 run.xyz # only maingroup elements H and Al so there should be no net spin

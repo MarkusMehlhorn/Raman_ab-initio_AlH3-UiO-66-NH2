@@ -1,0 +1,14 @@
+/var/lib/slurm-llnl/slurmd/job62287/slurm_script: line 41: ulimit: pipe size: cannot modify limit: Invalid argument
+/var/lib/slurm-llnl/slurmd/job62287/slurm_script: line 42: ulimit: open files: cannot modify limit: Operation not permitted
+cp: preserving permissions for ‘/local/scratch/mehlhorn/62287/JOBLOG’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/62287/deh.zip’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/62287/epsilon.inp’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/62287/epsilon.out’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/62287/pw.inp’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/62287/pw.out’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/62287/pwscf.save/H.pbe-mt_fhi.UPF’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/62287/pwscf.save/C.pbe-mt_fhi.UPF’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/62287/pwscf.save/data-file-schema.xml’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/62287/pwscf.save/Zr.pbe-mt_fhi.UPF’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/62287/pwscf.save/O.pbe-mt_fhi.UPF’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/62287/pwscf.save/wfc1.dat’: Operation not supported

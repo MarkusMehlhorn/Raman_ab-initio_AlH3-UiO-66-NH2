@@ -1,0 +1,5 @@
+/var/lib/slurm-llnl/slurmd/job61507/slurm_script: line 26: ulimit: pipe size: cannot modify limit: Invalid argument
+cp: preserving permissions for ‘/local/scratch/mehlhorn/61507/JOBLOG’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/61507/orca.job’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/61507/run_loose.inp’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/61507/run_tight.inp’: Operation not supported

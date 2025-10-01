@@ -1,0 +1,24 @@
+# Geometry optimization for (AlH3)n cluster
+
+%pal nprocs 24  end
+
+%geom MaxIter 500 end
+
+%elprop Polar 1 end # invoke raman
+
+! r2SCAN-3c
+! RKS	# closed shell for AlH3
+! Freq 	# Frequency analysis to check the stabiltity of the structures
+
+
+! NoPop # population analysis not necessary	
+
+! DEFGRID3
+! ExtremeSCF
+! VeryTightOpt
+
+
+! SmallPrint
+
+
+* xyzFile 0 1 start.xyz # only maingroup elements H and Al so there should be no net spin

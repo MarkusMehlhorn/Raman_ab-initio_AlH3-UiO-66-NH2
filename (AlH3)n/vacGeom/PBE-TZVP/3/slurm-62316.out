@@ -1,0 +1,16 @@
+cp: preserving permissions for ‘/local/scratch/mehlhorn/62316/JOBLOG’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/62316/orca.job’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/62316/orca.out’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/62316/orca_error.out’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/62316/run.bibtex’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/62316/run.densities’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/62316/run.densitiesinfo’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/62316/run.engrad’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/62316/run.gbw’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/62316/run.hess’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/62316/run.inp’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/62316/run.opt’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/62316/run.property.txt’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/62316/run.xyz’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/62316/run_trj.xyz’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/62316/slurm-61909.out’: Operation not supported

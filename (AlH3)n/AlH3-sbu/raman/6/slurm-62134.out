@@ -1,0 +1,6 @@
+cp: preserving permissions for ‘/local/scratch/mehlhorn/62134/JOBLOG’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/62134/orca.job’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/62134/run.inp’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/62134/slurm-62134.out’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/62134/start.xyz’: Operation not supported
+slurmstepd-chromium09: error: *** JOB 62134 ON chromium09 CANCELLED AT 2025-08-18T17:13:54 ***

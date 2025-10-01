@@ -1,0 +1,5 @@
+cp: preserving permissions for ‘/local/scratch/mehlhorn/62143/JOBLOG’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/62143/orca.job’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/62143/run.inp’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/62143/run_pre.inp’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/62143/slurm-62135.out’: Operation not supported

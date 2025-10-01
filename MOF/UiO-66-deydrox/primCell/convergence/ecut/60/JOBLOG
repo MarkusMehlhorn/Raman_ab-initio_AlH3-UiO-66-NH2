@@ -1,0 +1,5 @@
+submit directory: /home/mehlhorn/MOF/UiO-66-deydrox/primCell/convergence/ecut/60.0
+job ID: 60653
+node: mendelevium01
+number of CPUs: 256
+scratch directory: /local/scratch/mehlhorn/60653

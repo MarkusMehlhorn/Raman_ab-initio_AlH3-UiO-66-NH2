@@ -1,0 +1,5 @@
+[file orca_scfhess/orca_scfhess.cpp, line 217]: Error (ORCA_SCFHESS): Calculation of the analytical SCF Hessian failed
+
+[file orca_tools/qcmsg.cpp, line 465]: 
+  .... aborting the run
+

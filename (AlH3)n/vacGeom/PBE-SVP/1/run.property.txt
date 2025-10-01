@@ -1,0 +1,674 @@
+*************************************************
+******************* ORCA 6.1.0 ******************
+*************************************************
+$Calculation_Status
+   &GeometryIndex 6
+   &version [&Type "String"] "6.1.0"
+   &progName [&Type "String"] "LeanSCF"
+   &Status [&Type "String"] "NORMAL TERMINATION"
+$End
+$Geometry
+   &GeometryIndex 1
+   &NAtoms [&Type "Integer"] 4
+   &NCorelessECP [&Type "Integer"] 0
+   &NGhostAtoms [&Type "Integer"] 0
+   &CartesianCoordinates [&Type "Coordinates", &Dim(4,4), &Units "Bohr"] 
+              Al    -3.163798390672    1.422718114445    0.000000000000
+              H     -0.931464908671    0.729642157568    1.857714173213
+              H     -2.263608449518    3.555538618234   -1.885606530949
+              H     -3.959883319109   -1.003142220931   -1.548006957124
+$End
+$SCF_Energy
+   &GeometryIndex 1
+   &Method [&Type "String"] "SCF"
+   &totalEnergy [&Type "ArrayOfDoubles", &Dim (1,1)] "Total energy of each state"
+                                                         0
+
+0                                     -2.4393285777024732e+02
+   &Mult [&Type "ArrayOfIntegers", &Dim (1,1)] "Multiplicity of each state"
+                                                         0
+
+0                                                        1
+$End
+$DFT_Energy
+   &GeometryIndex 1
+   &nAlphaEl [&Type "Integer"] 8
+   &nBetaEl [&Type "Integer"] 8
+   &nTotalEl [&Type "Integer"] 16
+   &finalEn [&Type "Double"]      -2.4393285777024732e+02  "No Van der Waals correction"
+   &eExchange [&Type "Double"]      -1.9016714344954167e+01
+   &eCorr [&Type "Double"]      -5.3543325460101843e-01
+   &eXC [&Type "Double"]      -1.9552147599555184e+01
+   &eCNL [&Type "Double"]       0.0000000000000000e+00
+$End
+$SCF_Timings
+   &GeometryIndex 1
+   &TOTAL [&Type "Double"]       7.4810700000000008e-01
+   &PREP [&Type "Double"]       5.8209099999999991e-01
+   &FOCK [&Type "Double"]       4.2811000000000032e-01
+   &DENS [&Type "Double"]       3.8807999999999954e-02
+   &ETOT [&Type "Double"]       1.9448999999999828e-02
+   &TRAFO [&Type "Double"]       1.3643999999999989e-02
+   &DIIS [&Type "Double"]       9.6690000000000276e-02
+   &SOSCF [&Type "Double"]       5.7229999999999559e-02
+   &XC [&Type "Double"]       2.7504099999999976e-01
+   &FOCKSTART [&Type "Double"]       7.8340000000001186e-03
+   &INT_PREP [&Type "Double"]       1.9999999998354667e-06
+   &INT_BF [&Type "Double"]       1.8419000000000740e-02
+   &INT_DENS [&Type "Double"]       6.4380000000002768e-03
+   &INT_DENSIO [&Type "Double"]       1.3302377600000000e+02
+   &INT_FUNC [&Type "Double"]       1.0483999999999494e-02
+   &INT_POT [&Type "Double"]       4.8310000000004738e-03
+   &INT_POTIO [&Type "Double"]       1.4429999999999721e-03
+   &INT_SUM [&Type "Double"]       2.6360000000001937e-03
+   &SPLITRIJ [&Type "Double"]       9.0006999999999726e-02
+$End
+$VdW_Correction
+   &GeometryIndex 1
+   &vdW [&Type "Double"]      -1.1015091777910983e-03
+$End
+$Single_Point_Data
+   &GeometryIndex 1
+   &FinalEnergy [&Type "Double"]      -2.4393395927942512e+02  "Final single point energy"
+   &Converged [&Type "Boolean"] true
+$End
+$SCF_Nuc_Gradient
+   &GeometryIndex 1
+   &NAtoms [&Type "Integer"] 4
+   &gradNorm [&Type "Double"]       5.2773446772305430e-02
+   &grad [&Type "ArrayOfDoubles", &Dim (12,1)] 
+                                                         0
+
+0                                     -3.1316853560381393e-02
+1                                      1.3212793650687503e-02
+2                                      2.1124444006053917e-02
+3                                      2.8410154401205582e-03
+4                                     -2.4995631393979496e-03
+5                                     -1.9498602750524591e-02
+6                                      9.8051465920591246e-03
+7                                     -1.7271895442266257e-02
+8                                      7.1631044877377943e-05
+9                                      1.8670691525406631e-02
+10                                     6.5586649350559481e-03
+11                                    -1.6974723004104099e-03
+   &Method [&Type "String"] "SCF"
+   &Level [&Type "String"] "Relaxed density"
+   &Mult [&Type "Integer"] 1
+   &State [&Type "Integer"] 0
+   &Irrep [&Type "Integer"] 0
+$End
+$Geometry
+   &GeometryIndex 2
+   &NAtoms [&Type "Integer"] 4
+   &NCorelessECP [&Type "Integer"] 0
+   &NGhostAtoms [&Type "Integer"] 0
+   &CartesianCoordinates [&Type "Coordinates", &Dim(4,4), &Units "Bohr"] 
+              Al    -3.003288459033    1.354185475493   -0.119039434317
+              H     -0.935317509753    0.739744013640    1.974951520169
+              H     -2.306410592656    3.680248827464   -1.891783978553
+              H     -4.073738506529   -1.069421647280   -1.540027422161
+$End
+$SCF_Energy
+   &GeometryIndex 2
+   &Method [&Type "String"] "SCF"
+   &totalEnergy [&Type "ArrayOfDoubles", &Dim (1,1)] "Total energy of each state"
+                                                         0
+
+0                                     -2.4394650208297134e+02
+   &Mult [&Type "ArrayOfIntegers", &Dim (1,1)] "Multiplicity of each state"
+                                                         0
+
+0                                                        1
+$End
+$DFT_Energy
+   &GeometryIndex 2
+   &nAlphaEl [&Type "Integer"] 8
+   &nBetaEl [&Type "Integer"] 8
+   &nTotalEl [&Type "Integer"] 16
+   &finalEn [&Type "Double"]      -2.4394650208297134e+02  "No Van der Waals correction"
+   &eExchange [&Type "Double"]      -1.9014642990866513e+01
+   &eCorr [&Type "Double"]      -5.3488160788384254e-01
+   &eXC [&Type "Double"]      -1.9549524598750356e+01
+   &eCNL [&Type "Double"]       0.0000000000000000e+00
+$End
+$SCF_Timings
+   &GeometryIndex 2
+   &TOTAL [&Type "Double"]       4.1952600000000007e-01
+   &PREP [&Type "Double"]       5.9350500000000006e-01
+   &FOCK [&Type "Double"]       2.1195600000000003e-01
+   &DENS [&Type "Double"]       1.7883000000000093e-02
+   &ETOT [&Type "Double"]       1.1736999999999886e-02
+   &TRAFO [&Type "Double"]       1.3831000000000038e-02
+   &DIIS [&Type "Double"]       5.2707999999999977e-02
+   &SOSCF [&Type "Double"]       3.3332999999999946e-02
+   &XC [&Type "Double"]       1.6343799999999997e-01
+   &FOCKSTART [&Type "Double"]       5.2629999999999066e-03
+   &INT_PREP [&Type "Double"]       4.0000000001150227e-06
+   &INT_BF [&Type "Double"]       1.1825000000000196e-02
+   &INT_DENS [&Type "Double"]       4.2189999999995287e-03
+   &INT_DENSIO [&Type "Double"]       6.6656430000000000e+01
+   &INT_FUNC [&Type "Double"]       6.6409999999996749e-03
+   &INT_POT [&Type "Double"]       3.0360000000003717e-03
+   &INT_POTIO [&Type "Double"]       9.3899999999980110e-04
+   &INT_SUM [&Type "Double"]       3.6099999999983368e-04
+   &SPLITRIJ [&Type "Double"]       3.0398000000000036e-02
+$End
+$VdW_Correction
+   &GeometryIndex 2
+   &vdW [&Type "Double"]      -1.0905651702216045e-03
+$End
+$Single_Point_Data
+   &GeometryIndex 2
+   &FinalEnergy [&Type "Double"]      -2.4394759264814155e+02  "Final single point energy"
+   &Converged [&Type "Boolean"] true
+$End
+$SCF_Nuc_Gradient
+   &GeometryIndex 2
+   &NAtoms [&Type "Integer"] 4
+   &gradNorm [&Type "Double"]       3.8405331204613861e-02
+   &grad [&Type "ArrayOfDoubles", &Dim (12,1)] 
+                                                         0
+
+0                                     -2.4666335586776687e-02
+1                                      1.0353106308020230e-02
+2                                      1.5922659247731376e-02
+3                                      4.0455857429944377e-03
+4                                     -2.3997448448115711e-03
+5                                     -1.2166655314053143e-02
+6                                      8.0513108783582064e-03
+7                                     -1.0049757038966965e-02
+8                                     -1.4253713378350131e-03
+9                                      1.2569438949094482e-02
+10                                     2.0963955756593908e-03
+11                                    -2.3306325963900602e-03
+   &Method [&Type "String"] "SCF"
+   &Level [&Type "String"] "Relaxed density"
+   &Mult [&Type "Integer"] 1
+   &State [&Type "Integer"] 0
+   &Irrep [&Type "Integer"] 0
+$End
+$Geometry
+   &GeometryIndex 3
+   &NAtoms [&Type "Integer"] 4
+   &NCorelessECP [&Type "Integer"] 0
+   &NGhostAtoms [&Type "Integer"] 0
+   &CartesianCoordinates [&Type "Coordinates", &Dim(4,4), &Units "Bohr"] 
+              Al    -2.837349785266    1.283302344159   -0.242751862330
+              H     -0.956229502841    0.754401905587    2.068515244560
+              H     -2.352227389495    3.780171665074   -1.882055380583
+              H     -4.172948390369   -1.113119245503   -1.519607316508
+$End
+$SCF_Energy
+   &GeometryIndex 3
+   &Method [&Type "String"] "SCF"
+   &totalEnergy [&Type "ArrayOfDoubles", &Dim (1,1)] "Total energy of each state"
+                                                         0
+
+0                                     -2.4395509362878607e+02
+   &Mult [&Type "ArrayOfIntegers", &Dim (1,1)] "Multiplicity of each state"
+                                                         0
+
+0                                                        1
+$End
+$DFT_Energy
+   &GeometryIndex 3
+   &nAlphaEl [&Type "Integer"] 8
+   &nBetaEl [&Type "Integer"] 8
+   &nTotalEl [&Type "Integer"] 16
+   &finalEn [&Type "Double"]      -2.4395509362878607e+02  "No Van der Waals correction"
+   &eExchange [&Type "Double"]      -1.9011426331917264e+01
+   &eCorr [&Type "Double"]      -5.3446483189318006e-01
+   &eXC [&Type "Double"]      -1.9545891163810445e+01
+   &eCNL [&Type "Double"]       0.0000000000000000e+00
+$End
+$SCF_Timings
+   &GeometryIndex 3
+   &TOTAL [&Type "Double"]       4.0567599999999993e-01
+   &PREP [&Type "Double"]       6.0776599999999992e-01
+   &FOCK [&Type "Double"]       2.1144899999999989e-01
+   &DENS [&Type "Double"]       1.7707000000000250e-02
+   &ETOT [&Type "Double"]       1.8067999999999973e-02
+   &POP [&Type "Double"]       1.0000000001397780e-06
+   &TRAFO [&Type "Double"]       1.3638000000000039e-02
+   &DIIS [&Type "Double"]       5.0909000000000204e-02
+   &SOSCF [&Type "Double"]       2.3321999999999843e-02
+   &XC [&Type "Double"]       1.6000200000000020e-01
+   &FOCKSTART [&Type "Double"]       6.0439999999999383e-03
+   &INT_BF [&Type "Double"]       1.1216999999999810e-02
+   &INT_DENS [&Type "Double"]       4.2099999999998250e-03
+   &INT_DENSIO [&Type "Double"]       6.7633863000000005e+01
+   &INT_FUNC [&Type "Double"]       6.7140000000003308e-03
+   &INT_POT [&Type "Double"]       3.0239999999999156e-03
+   &INT_POTIO [&Type "Double"]       8.7400000000004141e-04
+   &INT_SUM [&Type "Double"]       3.5500000000010523e-04
+   &SPLITRIJ [&Type "Double"]       3.0641999999999836e-02
+$End
+$VdW_Correction
+   &GeometryIndex 3
+   &vdW [&Type "Double"]      -1.0823918596461765e-03
+$End
+$Single_Point_Data
+   &GeometryIndex 3
+   &FinalEnergy [&Type "Double"]      -2.4395617602064573e+02  "Final single point energy"
+   &Converged [&Type "Boolean"] true
+$End
+$SCF_Nuc_Gradient
+   &GeometryIndex 3
+   &NAtoms [&Type "Integer"] 4
+   &gradNorm [&Type "Double"]       2.3074973173083276e-02
+   &grad [&Type "ArrayOfDoubles", &Dim (12,1)] 
+                                                         0
+
+0                                     -1.6032548084886557e-02
+1                                      6.6424518615491703e-03
+2                                      9.1688035448030530e-03
+3                                      3.7970205970253128e-03
+4                                     -1.8321758529586697e-03
+5                                     -5.6178470802468747e-03
+6                                      5.5613943654274885e-03
+7                                     -3.9077918262651768e-03
+8                                     -1.6634441702986899e-03
+9                                      6.6741331246084352e-03
+10                                    -9.0248418163210741e-04
+11                                    -1.8875122952337626e-03
+   &Method [&Type "String"] "SCF"
+   &Level [&Type "String"] "Relaxed density"
+   &Mult [&Type "Integer"] 1
+   &State [&Type "Integer"] 0
+   &Irrep [&Type "Integer"] 0
+$End
+$Geometry
+   &GeometryIndex 4
+   &NAtoms [&Type "Integer"] 4
+   &NCorelessECP [&Type "Integer"] 0
+   &NGhostAtoms [&Type "Integer"] 0
+   &CartesianCoordinates [&Type "Coordinates", &Dim(4,4), &Units "Bohr"] 
+              Al    -2.665037587485    1.210364343241   -0.362012069014
+              H     -0.992119993269    0.773093741843    2.140788598228
+              H     -2.407197177905    3.842901080754   -1.861205020544
+              H     -4.254400309311   -1.121602496521   -1.493470823531
+$End
+$SCF_Energy
+   &GeometryIndex 4
+   &Method [&Type "String"] "SCF"
+   &totalEnergy [&Type "ArrayOfDoubles", &Dim (1,1)] "Total energy of each state"
+                                                         0
+
+0                                     -2.4395902383172563e+02
+   &Mult [&Type "ArrayOfIntegers", &Dim (1,1)] "Multiplicity of each state"
+                                                         0
+
+0                                                        1
+$End
+$DFT_Energy
+   &GeometryIndex 4
+   &nAlphaEl [&Type "Integer"] 8
+   &nBetaEl [&Type "Integer"] 8
+   &nTotalEl [&Type "Integer"] 16
+   &finalEn [&Type "Double"]      -2.4395902383172563e+02  "No Van der Waals correction"
+   &eExchange [&Type "Double"]      -1.9008340156089375e+01
+   &eCorr [&Type "Double"]      -5.3420047621684486e-01
+   &eXC [&Type "Double"]      -1.9542540632306221e+01
+   &eCNL [&Type "Double"]       0.0000000000000000e+00
+$End
+$SCF_Timings
+   &GeometryIndex 4
+   &TOTAL [&Type "Double"]       4.0229999999999999e-01
+   &PREP [&Type "Double"]       5.9223599999999998e-01
+   &FOCK [&Type "Double"]       2.1370000000000011e-01
+   &DENS [&Type "Double"]       1.8310000000000159e-02
+   &ETOT [&Type "Double"]       1.2596000000000052e-02
+   &TRAFO [&Type "Double"]       1.3519000000000059e-02
+   &DIIS [&Type "Double"]       5.0323000000000007e-02
+   &SOSCF [&Type "Double"]       2.3222999999999994e-02
+   &XC [&Type "Double"]       1.6211300000000017e-01
+   &FOCKSTART [&Type "Double"]       5.2439999999998044e-03
+   &INT_BF [&Type "Double"]       1.1294999999999611e-02
+   &INT_DENS [&Type "Double"]       4.5119999999994054e-03
+   &INT_DENSIO [&Type "Double"]       6.6209669000000005e+01
+   &INT_FUNC [&Type "Double"]       6.7930000000006041e-03
+   &INT_POT [&Type "Double"]       2.9370000000009666e-03
+   &INT_POTIO [&Type "Double"]       8.5599999999874665e-04
+   &INT_SUM [&Type "Double"]       3.8900000000008372e-04
+   &SPLITRIJ [&Type "Double"]       3.0767000000000211e-02
+$End
+$VdW_Correction
+   &GeometryIndex 4
+   &vdW [&Type "Double"]      -1.0780037291385227e-03
+$End
+$Single_Point_Data
+   &GeometryIndex 4
+   &FinalEnergy [&Type "Double"]      -2.4396010183545476e+02  "Final single point energy"
+   &Converged [&Type "Boolean"] true
+$End
+$SCF_Nuc_Gradient
+   &GeometryIndex 4
+   &NAtoms [&Type "Integer"] 4
+   &gradNorm [&Type "Double"]       7.5060316351497191e-03
+   &grad [&Type "ArrayOfDoubles", &Dim (12,1)] 
+                                                         0
+
+0                                     -5.6430540533399381e-03
+1                                      2.2375452633334033e-03
+2                                      1.7605074934580155e-03
+3                                      1.9948190471115422e-03
+4                                     -7.7915873726798165e-04
+5                                     -4.1633006063592371e-04
+6                                      2.2499685617778840e-03
+7                                      4.1804485283728447e-04
+8                                     -7.5594586440767332e-04
+9                                      1.3982664451619568e-03
+10                                    -1.8764313799302212e-03
+11                                    -5.8823156822376886e-04
+   &Method [&Type "String"] "SCF"
+   &Level [&Type "String"] "Relaxed density"
+   &Mult [&Type "Integer"] 1
+   &State [&Type "Integer"] 0
+   &Irrep [&Type "Integer"] 0
+$End
+$Geometry
+   &GeometryIndex 5
+   &NAtoms [&Type "Integer"] 4
+   &NCorelessECP [&Type "Integer"] 0
+   &NGhostAtoms [&Type "Integer"] 0
+   &CartesianCoordinates [&Type "Coordinates", &Dim(4,4), &Units "Bohr"] 
+              Al    -2.592798152521    1.180225153271   -0.405839550751
+              H     -1.010609459395    0.781689825192    2.163698992510
+              H     -2.434574010159    3.852307157695   -1.850634737774
+              H     -4.280773445896   -1.109465466842   -1.483124018845
+$End
+$SCF_Energy
+   &GeometryIndex 5
+   &Method [&Type "String"] "SCF"
+   &totalEnergy [&Type "ArrayOfDoubles", &Dim (1,1)] "Total energy of each state"
+                                                         0
+
+0                                     -2.4395941452799190e+02
+   &Mult [&Type "ArrayOfIntegers", &Dim (1,1)] "Multiplicity of each state"
+                                                         0
+
+0                                                        1
+$End
+$DFT_Energy
+   &GeometryIndex 5
+   &nAlphaEl [&Type "Integer"] 8
+   &nBetaEl [&Type "Integer"] 8
+   &nTotalEl [&Type "Integer"] 16
+   &finalEn [&Type "Double"]      -2.4395941452799190e+02  "No Van der Waals correction"
+   &eExchange [&Type "Double"]      -1.9008030355182918e+01
+   &eCorr [&Type "Double"]      -5.3417401598000280e-01
+   &eXC [&Type "Double"]      -1.9542204371162921e+01
+   &eCNL [&Type "Double"]       0.0000000000000000e+00
+$End
+$SCF_Timings
+   &GeometryIndex 5
+   &TOTAL [&Type "Double"]       2.3857900000000010e-01
+   &PREP [&Type "Double"]       6.0307899999999992e-01
+   &FOCK [&Type "Double"]       1.1454399999999987e-01
+   &DENS [&Type "Double"]       8.3010000000000028e-03
+   &ETOT [&Type "Double"]       5.6640000000001134e-03
+   &TRAFO [&Type "Double"]       6.8429999999999325e-03
+   &DIIS [&Type "Double"]       9.2870000000000452e-03
+   &SOSCF [&Type "Double"]       2.4514999999999842e-02
+   &XC [&Type "Double"]       9.8426000000000125e-02
+   &FOCKSTART [&Type "Double"]       4.5689999999998232e-03
+   &INT_PREP [&Type "Double"]       1.0000000000287557e-06
+   &INT_BF [&Type "Double"]       6.3940000000001218e-03
+   &INT_DENS [&Type "Double"]       2.5369999999996784e-03
+   &INT_DENSIO [&Type "Double"]       3.4580755000000003e+01
+   &INT_FUNC [&Type "Double"]       3.8990000000002079e-03
+   &INT_POT [&Type "Double"]       1.5619999999996192e-03
+   &INT_POTIO [&Type "Double"]       5.5600000000022298e-04
+   &INT_SUM [&Type "Double"]       2.2199999999994446e-04
+   &SPLITRIJ [&Type "Double"]       1.7894999999999994e-02
+$End
+$VdW_Correction
+   &GeometryIndex 5
+   &vdW [&Type "Double"]      -1.0775675273557658e-03
+$End
+$Single_Point_Data
+   &GeometryIndex 5
+   &FinalEnergy [&Type "Double"]      -2.4396049209551924e+02  "Final single point energy"
+   &Converged [&Type "Boolean"] true
+$End
+$SCF_Nuc_Gradient
+   &GeometryIndex 5
+   &NAtoms [&Type "Integer"] 4
+   &gradNorm [&Type "Double"]       2.7413546666395948e-03
+   &grad [&Type "ArrayOfDoubles", &Dim (12,1)] 
+                                                         0
+
+0                                     -1.0222238837046468e-03
+1                                      3.0603824894044873e-04
+2                                     -1.0631440669320051e-03
+3                                      6.9526910439852865e-04
+4                                     -1.9291425299144385e-04
+5                                      9.3616829821095184e-04
+6                                      6.4300618416572542e-04
+7                                      1.2284568245388547e-03
+8                                     -3.3390307386491508e-05
+9                                     -3.1605140456757353e-04
+10                                    -1.3415808212981983e-03
+11                                     1.6036607573468673e-04
+   &Method [&Type "String"] "SCF"
+   &Level [&Type "String"] "Relaxed density"
+   &Mult [&Type "Integer"] 1
+   &State [&Type "Integer"] 0
+   &Irrep [&Type "Integer"] 0
+$End
+$Geometry
+   &GeometryIndex 6
+   &NAtoms [&Type "Integer"] 4
+   &NCorelessECP [&Type "Integer"] 0
+   &NGhostAtoms [&Type "Integer"] 0
+   &CartesianCoordinates [&Type "Coordinates", &Dim(4,4), &Units "Bohr"] 
+              Al    -2.585731795898    1.177524516403   -0.406669974094
+              H     -1.012161528456    0.782396838425    2.165225264038
+              H     -2.439455143002    3.847579637367   -1.850549806750
+              H     -4.281406600614   -1.102744322878   -1.483904798055
+$End
+$SCF_Energy
+   &GeometryIndex 6
+   &Method [&Type "String"] "SCF"
+   &totalEnergy [&Type "ArrayOfDoubles", &Dim (1,1)] "Total energy of each state"
+                                                         0
+
+0                                     -2.4395943440568232e+02
+   &Mult [&Type "ArrayOfIntegers", &Dim (1,1)] "Multiplicity of each state"
+                                                         0
+
+0                                                        1
+$End
+$DFT_Energy
+   &GeometryIndex 6
+   &nAlphaEl [&Type "Integer"] 8
+   &nBetaEl [&Type "Integer"] 8
+   &nTotalEl [&Type "Integer"] 16
+   &finalEn [&Type "Double"]      -2.4395943440568232e+02  "No Van der Waals correction"
+   &eExchange [&Type "Double"]      -1.9008859335637752e+01
+   &eCorr [&Type "Double"]      -5.3421326909814604e-01
+   &eXC [&Type "Double"]      -1.9543072604735897e+01
+   &eCNL [&Type "Double"]       0.0000000000000000e+00
+$End
+$SCF_Timings
+   &GeometryIndex 6
+   &TOTAL [&Type "Double"]       2.3830499999999999e-01
+   &PREP [&Type "Double"]       5.9241400000000000e-01
+   &FOCK [&Type "Double"]       1.1392299999999989e-01
+   &DENS [&Type "Double"]       8.2289999999999308e-03
+   &ETOT [&Type "Double"]       5.8230000000000226e-03
+   &POP [&Type "Double"]       9.9999999991773336e-07
+   &TRAFO [&Type "Double"]       6.9150000000000045e-03
+   &DIIS [&Type "Double"]       9.4420000000000615e-03
+   &SOSCF [&Type "Double"]       2.4680999999999953e-02
+   &XC [&Type "Double"]       9.6567999999999987e-02
+   &FOCKSTART [&Type "Double"]       4.5249999999998902e-03
+   &INT_PREP [&Type "Double"]       9.9999999991773336e-07
+   &INT_BF [&Type "Double"]       6.7300000000002358e-03
+   &INT_DENS [&Type "Double"]       2.5119999999997367e-03
+   &INT_DENSIO [&Type "Double"]       3.4077723999999996e+01
+   &INT_FUNC [&Type "Double"]       3.9290000000005154e-03
+   &INT_POT [&Type "Double"]       1.6349999999996090e-03
+   &INT_POTIO [&Type "Double"]       4.5800000000006946e-04
+   &INT_SUM [&Type "Double"]       2.3399999999995647e-04
+   &SPLITRIJ [&Type "Double"]       1.8096999999999919e-02
+$End
+$VdW_Correction
+   &GeometryIndex 6
+   &vdW [&Type "Double"]      -1.0777681765445715e-03
+$End
+$Single_Point_Data
+   &GeometryIndex 6
+   &FinalEnergy [&Type "Double"]      -2.4396051217385886e+02  "Final single point energy"
+   &Converged [&Type "Boolean"] true
+$End
+$SCF_Dipole_Moment
+   &GeometryIndex 6
+   &dipoleMagnitude [&Type "Double", &Units "a.u."]       2.0165564287536228e-02
+   &dipoleElecContrib [&Type "ArrayOfDoubles", &Dim (3,1)] "Electronic contribution"
+                                                         0
+
+0                                     -2.0054659829243648e-02
+1                                      4.4784194878179640e-03
+2                                     -4.1482359738701985e-02
+   &dipoleNucContrib [&Type "ArrayOfDoubles", &Dim (3,1)] "Nuclear contribution"
+                                                         0
+
+0                                      1.1179784730034115e-02
+1                                     -2.4704358395020165e-03
+2                                      2.3486399728847474e-02
+   &dipoleTotal [&Type "ArrayOfDoubles", &Dim (3,1)] "Total"
+                                                         0
+
+0                                     -8.8748750992095338e-03
+1                                      2.0079836483159474e-03
+2                                     -1.7995960009854511e-02
+   &doAtomicDipole [&Type "Boolean"] false
+   &Method [&Type "String"] "SCF"
+   &Level [&Type "String"] "Relaxed density"
+   &Mult [&Type "Integer"] 1
+   &State [&Type "Integer"] -1
+   &Irrep [&Type "Integer"] 0
+$End
+$THERMOCHEMISTRY_Energies
+   &GeometryIndex 6
+   &temperature [&Type "Double"]       2.9814999999999998e+02
+   &pressure [&Type "Double"]       1.0000000000000000e+00
+   &totalMass [&Type "Double"]       3.0006000000000000e+01
+   &spinDegeneracy [&Type "Integer"] 1
+   &elEnergy [&Type "Double"]      -2.4396051217385886e+02
+   &transEnergy [&Type "Double"]       1.4162714244859817e-03
+   &rotEnergy [&Type "Double"]       1.4162714244859817e-03
+   &vibEnergy [&Type "Double"]       3.0220131449155621e-04
+   &numOfFreqs [&Type "Integer"] 12
+   &freqScalingFactor [&Type "Double"]       1.0000000000000000e+00
+   &FREQ [&Type "ArrayOfDoubles", &Units "cm^-1", &Dim (12,1)] 
+                                                         0
+
+0                                      0.0000000000000000e+00
+1                                      0.0000000000000000e+00
+2                                      0.0000000000000000e+00
+3                                      0.0000000000000000e+00
+4                                      0.0000000000000000e+00
+5                                      0.0000000000000000e+00
+6                                      6.8320025454332927e+02
+7                                      7.5914169614069090e+02
+8                                      7.6645847375077778e+02
+9                                      1.8720752170274920e+03
+10                                     1.8891954026453129e+03
+11                                     1.8939558659356876e+03
+   &zpe [&Type "Double"]       1.7915571544272098e-02
+   &innerEnergyU [&Type "Double"]      -2.4393946185815111e+02
+   &enthalpyH [&Type "Double"]      -2.4393851764910886e+02
+   &qEl [&Type "Double"]       0.0000000000000000e+00
+   &qRot [&Type "Double"]       7.7691141961294102e-03
+   &qVib [&Type "Double"]       3.8661064410663653e-04
+   &qTrans [&Type "Double"]       1.7166373066897306e-02
+   &entropyS [&Type "Double"]       2.5322097907133353e-02
+   &freeEnergyG [&Type "Double"]      -2.4396383974701598e+02
+   &isLinear [&Type "Boolean"] false
+$End
+$Hessian
+   &GeometryIndex 6
+   &HESSIAN [&Type "ArrayOfDoubles", &Dim (12,12)] "The Hessian"
+                                                         0                           1                           2                           3                           4                           5                           6                           7
+
+0                                      1.1328586345263426e-01         4.4238089354472918e-02         6.8719299913088894e-02        -4.5709932516942893e-02         6.7597084694755007e-03        -4.8003127519095100e-02        -1.6997021407254596e-02        -5.0081094867285830e-03
+1                                      4.4238089354472918e-02         1.9991838197227757e-01        -2.9338015291451029e-02         6.7687475153458427e-03        -1.9599593013428868e-02         1.2197114163252613e-02        -5.0817059260317146e-03        -1.0151582810144695e-01
+2                                      6.8719299913088894e-02        -2.9338015291451029e-02         1.6771454261233559e-01        -4.8012682823936059e-02         1.2186594975445806e-02        -9.4632522089816137e-02         1.6581676343827287e-03         4.5810570044209242e-02
+3                                     -4.5709932516942893e-02         6.7687475153458427e-03        -4.8012682823936059e-02         4.0028828199316621e-02        -5.5310360777410424e-03         5.4520455441602826e-02         4.1708856022877232e-03        -7.6209691227413848e-04
+4                                      6.7597084694755007e-03        -1.9599593013428868e-02         1.2186594975445806e-02        -5.5310360777410424e-03         1.5315439656906130e-02        -1.4321795352738628e-02         2.7694110756759645e-03         1.2422885312943690e-03
+5                                     -4.8003127519095100e-02         1.2197114163252613e-02        -9.4632522089816137e-02         5.4520455441602826e-02        -1.4321795352738628e-02         9.4960083727214081e-02        -3.3974019891546293e-03         1.4002426392031517e-03
+6                                     -1.6997021407254596e-02        -5.0817059260317146e-03         1.6581676343827287e-03         4.1708856022877232e-03         2.7694110756759645e-03        -3.3974019891546293e-03         9.1106671749799188e-03         6.9871116662147039e-03
+7                                     -5.0081094867285830e-03        -1.0151582810144695e-01         4.5810570044209242e-02        -7.6209691227413848e-04         1.2422885312943690e-03         1.4002426392031517e-03         6.9871116662147039e-03         1.0327044074359260e-01
+8                                      1.6220428634933139e-03         4.5649514139179052e-02        -4.1983527909838267e-02        -1.2110124280491734e-03         6.6261025887616037e-03        -5.9466658332233378e-04         9.5803500405772680e-04        -5.0476785682502745e-02
+9                                     -5.0578909528436772e-02        -4.5916025149123352e-02        -2.2387315808005341e-02         1.5102187153385460e-03        -4.0011231189977584e-03        -3.1010043555382578e-03         3.7154686299869554e-03        -1.2219406329497078e-03
+10                                    -4.5998794131883521e-02        -7.8802960857401738e-02        -2.8651591320091308e-02        -4.7257487374332587e-04         3.0418648252283674e-03         7.2405304256004457e-04        -4.6697814501212289e-03        -2.9969011734400017e-03
+11                                    -2.2315684173017342e-02        -2.8516171419093347e-02        -3.1098492612681189e-02        -5.3156817674324336e-03        -4.4905167037459608e-03         2.6710494592438981e-04         7.7847218958490994e-04         3.2687768605968700e-03
+                                                         8                           9                          10                          11
+
+0                                      1.6220428634933139e-03        -5.0578909528436772e-02        -4.5998794131883521e-02        -2.2315684173017342e-02
+1                                      4.5649514139179052e-02        -4.5916025149123352e-02        -7.8802960857401738e-02        -2.8516171419093347e-02
+2                                     -4.1983527909838267e-02        -2.2387315808005341e-02        -2.8651591320091308e-02        -3.1098492612681189e-02
+3                                     -1.2110124280491734e-03         1.5102187153385460e-03        -4.7257487374332587e-04        -5.3156817674324336e-03
+4                                      6.6261025887616037e-03        -4.0011231189977584e-03         3.0418648252283674e-03        -4.4905167037459608e-03
+5                                     -5.9466658332233378e-04        -3.1010043555382578e-03         7.2405304256004457e-04         2.6710494592438981e-04
+6                                      9.5803500405772680e-04         3.7154686299869554e-03        -4.6697814501212289e-03         7.7847218958490994e-04
+7                                     -5.0476785682502745e-02        -1.2219406329497078e-03        -2.9969011734400017e-03         3.2687768605968700e-03
+8                                      3.8301698634598216e-02        -1.3663382783726035e-03        -1.8016349069444257e-03         4.2764958585623895e-03
+9                                     -1.3663382783726035e-03         4.5353222183111268e-02         5.1140119678409444e-02         2.6853776096390534e-02
+10                                    -1.8016349069444257e-03         5.1140119678409444e-02         7.8757997205613384e-02         2.9733542223359062e-02
+11                                     4.2764958585623895e-03         2.6853776096390534e-02         2.9733542223359062e-02         2.6554891808194408e-02
+   &MODES [&Type "ArrayOfDoubles", &Dim (12,12)] "The modes of vibrations"
+                                                         0                           1                           2                           3                           4                           5                           6                           7
+
+0                                      0.0000000000000000e+00         0.0000000000000000e+00         0.0000000000000000e+00         0.0000000000000000e+00         0.0000000000000000e+00         0.0000000000000000e+00        -4.7757100723674999e-02        -2.2321268928080187e-02
+1                                      0.0000000000000000e+00         0.0000000000000000e+00         0.0000000000000000e+00         0.0000000000000000e+00         0.0000000000000000e+00         0.0000000000000000e+00         2.0144336200823593e-02         5.6126482788207204e-03
+2                                      0.0000000000000000e+00         0.0000000000000000e+00         0.0000000000000000e+00         0.0000000000000000e+00         0.0000000000000000e+00         0.0000000000000000e+00         3.2377194450734323e-02        -3.6399480030214475e-02
+3                                      0.0000000000000000e+00         0.0000000000000000e+00         0.0000000000000000e+00         0.0000000000000000e+00         0.0000000000000000e+00         0.0000000000000000e+00         4.2112601128566207e-01        -1.4291367545422323e-02
+4                                      0.0000000000000000e+00         0.0000000000000000e+00         0.0000000000000000e+00         0.0000000000000000e+00         0.0000000000000000e+00         0.0000000000000000e+00        -1.7739919645467825e-01         3.5812788592141931e-03
+5                                      0.0000000000000000e+00         0.0000000000000000e+00         0.0000000000000000e+00         0.0000000000000000e+00         0.0000000000000000e+00         0.0000000000000000e+00        -2.8496203776977796e-01        -2.2602794712442760e-02
+6                                      0.0000000000000000e+00         0.0000000000000000e+00         0.0000000000000000e+00         0.0000000000000000e+00         0.0000000000000000e+00         0.0000000000000000e+00         4.2875981669993785e-01         4.2783208653981597e-01
+7                                      0.0000000000000000e+00         0.0000000000000000e+00         0.0000000000000000e+00         0.0000000000000000e+00         0.0000000000000000e+00         0.0000000000000000e+00        -1.8078283109119878e-01         2.5085283022299726e-01
+8                                      0.0000000000000000e+00         0.0000000000000000e+00         0.0000000000000000e+00         0.0000000000000000e+00         0.0000000000000000e+00         0.0000000000000000e+00        -2.9073752154774923e-01         4.7416987535673710e-01
+9                                      0.0000000000000000e+00         0.0000000000000000e+00         0.0000000000000000e+00         0.0000000000000000e+00         0.0000000000000000e+00         0.0000000000000000e+00         4.2846942174277203e-01         1.8395181891975279e-01
+10                                     0.0000000000000000e+00         0.0000000000000000e+00         0.0000000000000000e+00         0.0000000000000000e+00         0.0000000000000000e+00         0.0000000000000000e+00        -1.8103868611545454e-01        -4.0467267640278759e-01
+11                                     0.0000000000000000e+00         0.0000000000000000e+00         0.0000000000000000e+00         0.0000000000000000e+00         0.0000000000000000e+00         0.0000000000000000e+00        -2.9096855642623654e-01         5.2276900087876843e-01
+                                                         8                           9                          10                          11
+
+0                                     -1.4829319679188997e-02        -1.5293518099575598e-03         2.2530485081343348e-02        -1.5034279870922150e-02
+1                                     -3.9918327569714099e-02         4.6705604769675169e-04        -5.2979073919172002e-03        -4.0937481034110393e-02
+2                                      2.9367972177572173e-03        -2.6092387852059582e-03         3.6542705457744240e-02         3.3196830456284016e-03
+3                                      2.7550176561163991e-01         3.2358893949773881e-01        -3.8965204641072027e-01        -8.1580727916167172e-03
+4                                      7.4096696569473575e-01        -8.1268269052636899e-02         9.7976709808463860e-02        -1.4376138300754706e-02
+5                                     -5.4695095948110693e-02         5.2870002717123787e-01        -6.3696038327445847e-01        -3.0478098038803519e-03
+6                                      2.4501631082569444e-01         2.4644893283351486e-02         2.7855505909069486e-02         2.8268134691823557e-02
+7                                      1.1758871408799584e-01         4.7946377856389011e-01         3.7933590352470276e-01         6.0372410967425594e-01
+8                                      2.8959071529840053e-01        -2.6186074058526876e-01        -1.9474454499583452e-01        -3.3354120659993880e-01
+9                                     -1.2356896573904308e-01        -3.0729636201097627e-01        -2.4129626551502198e-01         3.8232539393036991e-01
+10                                     2.0997240998515110e-01        -4.1069759907370729e-01        -3.3549898511024012e-01         5.0646067273598938e-01
+11                                    -3.1350738773275544e-01        -1.9699555553197393e-01        -1.4646499103611110e-01         2.4772821487887331e-01
+$End
+$Calculation_Info
+   &GeometryIndex 6
+   &Mult [&Type "Integer"] 1
+   &Charge [&Type "Integer"] 0
+   &NumOfAtoms [&Type "Integer"] 4
+   &NumOfElectrons [&Type "Integer"] 16
+   &NumOfBasisFuncts [&Type "Integer"] 24
+   &NumOfAuxCBasisFuncts [&Type "Integer"] 0
+   &NumOfAuxJBasisFuncts [&Type "Integer"] 84
+   &NumOfAuxJKBasisFuncts [&Type "Integer"] 0
+   &NumOfCABSBasisFuncts [&Type "Integer"] 0
+$End
+$Calculation_Timings
+   &GeometryIndex 6
+   &GTOINT [&Type "Double"]       7.4221119999999985e+00
+   &SCF [&Type "Double"]       1.2657245999999995e+01
+   &SCFGRAD [&Type "Double"]       6.1102949999999936e+00
+   &GSTEP [&Type "Double"]       7.6870000000001770e-02
+   &PROPINT [&Type "Double"]       5.1986429999999979e+00
+   &RESPONSE [&Type "Double"]       1.2399109999999993e+00
+   &PROP [&Type "Double"]       1.9213400000000007e+00
+   &SUM [&Type "Double"]       3.4626416999999989e+01
+$End

@@ -1,0 +1,5 @@
+submit directory: /home/mehlhorn/(AlH3)n/GeomInit/8/tightCalc
+job ID: 60136
+node: cuda1
+number of CPUs: 24
+scratch directory: /local/scratch/mehlhorn/60136

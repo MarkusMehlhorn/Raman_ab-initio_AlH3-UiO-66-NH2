@@ -1,0 +1,5 @@
+submit directory: /home/mehlhorn/(AlH3)n/tests/ramanMethod/PBEh-3c
+job ID: 62070
+node: cuda3
+number of CPUs: 24
+scratch directory: /local/scratch/mehlhorn/62070

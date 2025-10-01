@@ -1,0 +1,6 @@
+[file orca_main/run.cpp, line 12331]: ORCA finished with error return - aborting the run
+[file orca_scf/scfguess.cpp, line 1970]: No orbitals were found in the gbw file
+
+[file orca_tools/qcmsg.cpp, line 465]: 
+  .... aborting the run
+

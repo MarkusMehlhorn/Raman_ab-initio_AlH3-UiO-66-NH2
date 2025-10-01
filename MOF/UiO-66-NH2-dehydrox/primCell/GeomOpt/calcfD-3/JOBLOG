@@ -1,0 +1,5 @@
+submit directory: /home/mehlhorn/MOF/UiO-66-NH2-dehydrox/primCell/GeomOpt/calcfD-3
+job ID: 60867
+node: mendelevium01
+number of CPUs: 256
+scratch directory: /local/scratch/mehlhorn/60867

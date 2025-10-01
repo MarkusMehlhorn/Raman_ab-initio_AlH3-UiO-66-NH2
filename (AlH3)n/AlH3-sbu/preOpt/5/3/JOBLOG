@@ -1,0 +1,5 @@
+submit directory: /home/mehlhorn/(AlH3)n/AlH3-sbu/preOpt/5/3
+job ID: 61834
+node: cuda7
+number of CPUs: 24
+scratch directory: /local/scratch/mehlhorn/61834

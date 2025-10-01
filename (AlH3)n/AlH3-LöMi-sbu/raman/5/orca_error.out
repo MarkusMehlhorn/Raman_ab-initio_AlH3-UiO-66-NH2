@@ -1,0 +1,34 @@
+[file orca_main/run.cpp, line 383]: Cannot open input file: run_pre.inp
+
+--------------------------------------------------------------------------
+A system call failed during shared memory initialization that should
+not have.  It is likely that your MPI job will now either abort or
+experience performance degradation.
+
+  Local host:  gadolinium01
+  System call: unlink(2) /dev/shm/vader_segment.gadolinium01.1009.1dc60001.1
+  Error:       No such file or directory (errno 2)
+--------------------------------------------------------------------------
+[gadolinium01:1049601] [[7622,0],0] ORTE_ERROR_LOG: Data unpack would read past end of buffer in file ../../../orte/util/show_help.c at line 513
+[gadolinium01:1049601] [[7622,0],0] ORTE_ERROR_LOG: Data unpack would read past end of buffer in file ../../../orte/util/show_help.c at line 513
+[gadolinium01:1049601] 61 more processes have sent help message help-opal-shmem-mmap.txt / sys call fail
+[gadolinium01:1049601] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[gadolinium01:1088760] [[34111,0],0] ORTE_ERROR_LOG: Data unpack would read past end of buffer in file ../../../orte/util/show_help.c at line 501
+[gadolinium01:1088760] [[34111,0],0] ORTE_ERROR_LOG: Out of resource in file ../../../orte/util/show_help.c at line 501
+[gadolinium01:1088760] [[34111,0],0] ORTE_ERROR_LOG: Data unpack would read past end of buffer in file ../../../orte/util/show_help.c at line 513
+[gadolinium01:1088760] [[34111,0],0] ORTE_ERROR_LOG: Data unpack would read past end of buffer in file ../../../orte/util/show_help.c at line 513
+[gadolinium01:1088760] [[34111,0],0] ORTE_ERROR_LOG: Data unpack would read past end of buffer in file ../../../orte/util/show_help.c at line 513
+[gadolinium01:1088760] [[34111,0],0] ORTE_ERROR_LOG: Data unpack would read past end of buffer in file ../../../orte/util/show_help.c at line 513
+[gadolinium01:1088760] [[34111,0],0] ORTE_ERROR_LOG: Data unpack would read past end of buffer in file ../../../orte/util/show_help.c at line 513
+[gadolinium01:1088760] [[34111,0],0] ORTE_ERROR_LOG: Data unpack would read past end of buffer in file ../../../orte/util/show_help.c at line 513
+--------------------------------------------------------------------------
+A system call failed during shared memory initialization that should
+not have.  It is likely that your MPI job will now either abort or
+experience performance degradation.
+
+  Local host:  gadolinium01
+  System call: unlink(2) /dev/shm/vader_segment.gadolinium01.1009.853f0001.32
+  Error:       No such file or directory (errno 2)
+--------------------------------------------------------------------------
+[gadolinium01:1088760] 55 more processes have sent help message help-opal-shmem-mmap.txt / sys call fail
+[gadolinium01:1088760] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages

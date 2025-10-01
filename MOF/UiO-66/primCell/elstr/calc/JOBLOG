@@ -1,0 +1,5 @@
+submit directory: /home/mehlhorn/MOF/UiO-66/test_prim-cell/elstr/calc
+job ID: 55484
+node: mendelevium01
+number of CPUs: 256
+scratch directory: /local/scratch/mehlhorn/55484

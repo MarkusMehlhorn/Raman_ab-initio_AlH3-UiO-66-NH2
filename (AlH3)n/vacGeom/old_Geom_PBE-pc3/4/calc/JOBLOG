@@ -1,0 +1,5 @@
+submit directory: /home/mehlhorn/(AlH3)n/GeomInit/4/calc
+job ID: 56498
+node: cuda6
+number of CPUs: 24
+scratch directory: /local/scratch/mehlhorn/56498

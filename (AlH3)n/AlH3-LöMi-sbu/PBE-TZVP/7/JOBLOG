@@ -1,0 +1,5 @@
+submit directory: /home/mehlhorn/(AlH3)n/AlH3-LöMi-sbu/PBE-TZVP/7
+job ID: 62354
+node: cuda5
+number of CPUs: 24
+scratch directory: /local/scratch/mehlhorn/62354

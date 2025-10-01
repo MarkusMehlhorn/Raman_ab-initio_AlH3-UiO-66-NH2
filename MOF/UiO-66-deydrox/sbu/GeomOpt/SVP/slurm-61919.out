@@ -1,0 +1,21 @@
+/var/lib/slurm-llnl/slurmd/job61919/slurm_script: line 26: ulimit: pipe size: cannot modify limit: Invalid argument
+cp: preserving permissions for ‘/local/scratch/mehlhorn/61919/JOBLOG’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/61919/orca.job’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/61919/orca.out’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/61919/orca_error.out’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/61919/run.SHARKINP.tmp’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/61919/run.bas0’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/61919/run.bas1’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/61919/run.bas2’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/61919/run.bas3’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/61919/run.bas4’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/61919/run.bas5’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/61919/run.citations.tmp’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/61919/run.gbw’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/61919/run.ginp.tmp’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/61919/run.inp’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/61919/run.int.tmp’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/61919/run.opt’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/61919/run.property.txt’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/61919/run.xyz’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/61919/slurm-61918.out’: Operation not supported

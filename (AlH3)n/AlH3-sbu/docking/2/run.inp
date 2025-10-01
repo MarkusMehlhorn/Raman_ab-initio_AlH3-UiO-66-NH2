@@ -1,0 +1,12 @@
+%pal nprocs 64 end
+
+! GFN-FF
+
+%DOCKER
+    Guest "guest.xyz"
+    NOpt 30
+    PopDensity 5
+    SwarmMinIter 16
+END
+
+* xyzFile 0 1 host.xyz

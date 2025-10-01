@@ -1,0 +1,5 @@
+submit directory: /home/mehlhorn/(AlH3)n/tests/ramanMethod/PBE
+job ID: 62068
+node: cuda2
+number of CPUs: 24
+scratch directory: /local/scratch/mehlhorn/62068

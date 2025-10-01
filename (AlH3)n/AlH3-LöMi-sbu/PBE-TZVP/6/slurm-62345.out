@@ -1,0 +1,6 @@
+cp: preserving permissions for ‘/local/scratch/mehlhorn/62345/JOBLOG’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/62345/orca.job’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/62345/run.inp’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/62345/slurm-62345.out’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/62345/start.xyz’: Operation not supported
+slurmstepd-cuda2: error: *** JOB 62345 ON cuda2 CANCELLED AT 2025-08-31T10:57:55 ***

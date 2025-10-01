@@ -1,0 +1,35 @@
+
+     Program MATDYN v.7.3.1 starts on 18Aug2025 at 16: 3:58 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 29 465901 (2017);
+         "P. Giannozzi et al., J. Chem. Phys. 152 154105 (2020);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Parallel version (MPI), running on    64 processors
+
+     MPI processes distributed on     1 nodes
+     R & G space division:  proc/nbgrp/npool/nimage =      64
+     76772 MiB available memory on the printing compute node when the environment starts
+
+ mass for atomic type   1 not given; uses mass from file fc                                                                                                                                                                                                                                                              
+ mass for atomic type   2 not given; uses mass from file fc                                                                                                                                                                                                                                                              
+ mass for atomic type   3 not given; uses mass from file fc                                                                                                                                                                                                                                                              
+ mass for atomic type   4 not given; uses mass from file fc                                                                                                                                                                                                                                                              
+ Norm of the difference between old and new effective charges:    0.00000015986105092408
+
+ Norm of the difference between old and new force-constants:   0.13258316185650653729
+
+
+     MATDYN       :     16h22m CPU     16h23m WALL
+
+
+   This run was terminated on:   8:27:11  19Aug2025            
+
+=------------------------------------------------------------------------------=
+   JOB DONE.
+=------------------------------------------------------------------------------=

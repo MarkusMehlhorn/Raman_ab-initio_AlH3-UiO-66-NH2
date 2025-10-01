@@ -1,0 +1,7 @@
+cp: preserving permissions for ‘/local/scratch/mehlhorn/54871/CRASH’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/54871/JOBLOG’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/54871/qe-pw.job’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/54871/qe-pw.out’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/54871/qe-pw_error.out’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/54871/run.inp’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/54871/slurm-54870.out’: Operation not supported

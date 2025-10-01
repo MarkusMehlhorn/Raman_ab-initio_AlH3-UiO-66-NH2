@@ -1,0 +1,24 @@
+/var/lib/slurm-llnl/slurmd/job62088/slurm_script: line 41: ulimit: pipe size: cannot modify limit: Invalid argument
+/var/lib/slurm-llnl/slurmd/job62088/slurm_script: line 42: ulimit: open files: cannot modify limit: Operation not permitted
+cp: preserving permissions for ‘/local/scratch/mehlhorn/62088/JOBLOG’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/62088/deh.zip’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/62088/epsilon.inp’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/62088/epsilon.out’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/62088/pw.inp’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/62088/pw.out’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/62088/pwscf.save/H.pbe-mt_fhi.UPF’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/62088/pwscf.save/C.pbe-mt_fhi.UPF’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/62088/pwscf.save/data-file-schema.xml’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/62088/pwscf.save/Zr.pbe-mt_fhi.UPF’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/62088/pwscf.save/O.pbe-mt_fhi.UPF’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/62088/pwscf.save/wfc1.dat’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/62088/pwscf.save/ace1.dat’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/62088/pwscf.save/charge-density.dat’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/62088/pwscf.save’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/62088/pwscf.xml’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/62088/qe.job’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/62088/slurm-62048.out’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/62088/slurm-62054.out’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/62088/slurm-62085.out’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/62088/slurm-62086.out’: Operation not supported
+cp: preserving permissions for ‘/local/scratch/mehlhorn/62088/slurm-62087.out’: Operation not supported

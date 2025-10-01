@@ -1,0 +1,22 @@
+# Geometry optimization for (AlH3)n cluster
+
+%pal nprocs 24  end
+
+%geom MaxIter 500 end
+
+
+! PBE def2-SV(P)
+! RKS	# closed shell for AlH3
+! D3    #  dispersion correction
+! gCP(DFT/SV(P))
+
+
+! NoPop # population analysis not necessary	
+
+! DEFGRID2
+! NormalSCF
+
+! SmallPrint
+
+
+* xyzFile 0 1 run.xyz # only maingroup elements H and Al so there should be no net spin
